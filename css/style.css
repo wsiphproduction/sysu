@@ -3847,7 +3847,6 @@ form.filters option {
   height: 100%;
   top: 0;
   right: -40px;
-  border-bottom: 1px solid #ced4da;
 }
 
 .quantity .quantity-nav .quantity-button.quantity-down {
@@ -4208,6 +4207,9 @@ form.filters option {
   }
   #wizard1 ul[role='tablist'] .current a .title {
     display: inline-block !important;
+  }
+  #cart-wrapper .container > .row > div:last-child {
+    margin-top: 60px;
   }
 }
 

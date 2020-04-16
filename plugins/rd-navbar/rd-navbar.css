@@ -4775,8 +4775,7 @@ h3+.card-custom-group-wrap {
   height: 4px;
   line-height: 4px;
   text-align: center;
-  background: #0e1317;
-  background: var(--second-color);
+  background: white;
   left: 50%;
   margin-left: -2px;
   transition: 0.3s all ease;
@@ -5442,7 +5441,7 @@ html.rd-navbar-fixed-linked .page {
   padding: 4px;
   height: 50px;
   z-index: 999;
-  background: #e3e3e3;
+  background: #3E3E3E;
 }
 
 .rd-navbar-fixed .rd-navbar-upper-panel__content {
@@ -6654,6 +6653,11 @@ textarea.form-input {
   letter-spacing: 1px;
   text-align: center;
   width: 100%;
+}
+
+.rd-navbar-fixed .rd-navbar-verbiage {
+  font-size: 10px !important;
+  padding-top: 10px;
 }
 
 .rd-navbar .rd-navbar-cart-wrap {

@@ -352,6 +352,9 @@
   #wizard1 ul[role='tablist'] .current a .title {
     display: inline-block !important;
   }
+  #cart-wrapper .container > .row > div:last-child {
+    margin-top: 60px;
+  }
 }
 
 @media (max-width: 768px) {

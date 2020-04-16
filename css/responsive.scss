@@ -408,6 +408,10 @@
             }
         }
     }
+
+    #cart-wrapper .container > .row > div:last-child {
+        margin-top: 60px;
+    }
 }
 
 @media (max-width: 768px) {
