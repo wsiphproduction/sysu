@@ -99,9 +99,6 @@
 }
 
 @media (max-width: 1200px) {
-  h2 {
-    font-size: 2.5em !important;
-  }
   .banner-caption h2 {
     font-size: 1.45em !important;
   }
@@ -358,9 +355,6 @@
 }
 
 @media (max-width: 768px) {
-  h2 {
-    font-size: 2em !important;
-  }
   .banner-overlay {
     display: none !important;
   }

@@ -227,345 +227,254 @@
 
       <!-- Page Content -->
       <main>
-      
-        <section id="listing-wrapper">
+
+        <section id="cart-wrapper">
           <div class="container">
-            <div class="breadcrumb dark">
-              <a href="index.htm">Home</a>
-              <span class="fa default"></span>
-              <span class="current">Products</span>
-            </div>
-            <div class="gap-20"></div>
             <div class="row">
-              <div id="col1" class="col-lg-3">
-                <nav class="rd-navbar-listing">
-                  <div class="listing-filter-wrap">
-                    <h3 class="listing-title">Product Categories</h3>
-                    <!-- <div class="rd-navbar-listing-close-toggle rd-navbar-static--hidden toggle-original"><span
-                        class="lnr lnr-cross"></span> Close</div> -->
-                    <div class="side-menu menu-category">
-                      <ul class="listing-category">
-                        <li><a href="">Jams & Jellies</a></li>
-                        <li><a href="">Pancake Syrups</a></li>
-                        <li><a href="">Truly Fruity Syrups</a></li>
-                        <li><a href="">Dips N' Dressings</a></li>
-                        <li><a href="">Classic Pasta Sauces</a></li>
-                        <li><a href="">Premium Pasta Sauces</a></li>
-                        <li><a href="">Cream Based Sauces</a></li>
-                        <li><a href="">Marinades</a></li>
-                        <li><a href="">Tomato Sauces</a></li>
-                        <li><a href="">Maraschino Cherries</a></li>
-                        <li><a href="">Gourmet Jams</a></li>
-                      </ul>
-                    </div>
-      
-                    <div class="gap-20"></div>
-
-                    <h3 class="listing-title">Brands</h3>
-                    <div class="side-menu menu-category">
-                      <ul class="listing-category">
-                        <li><a href="">Clara Ole</a></li>
-                        <li><a href="">Lee Kum Kee</a></li>
-                        <li><a href="">McCormick</a></li>
-                        <li><a href="">McCormick Culinary</a></li>
-                        <li><a href="">Folgers</a></li>
-                        <li><a href="">Tabasco</a></li>
-                        <li><a href="">JIF</a></li>
-                        <li><a href="">Tree Top</a></li>
-                        <li><a href="">Crystal Noodle</a></li>
-                        <li><a href="">Regilait</a></li>
-                        <li><a href="">Crisco</a></li>
-                        <li><a href="">Mom's Haus of Mushroom</a></li>
-                        <li><a href="">ProSource</a></li>
-                        <li><a href="">San Remo</a></li>
-                        <li><a href="">Tulip Chocolate</a></li>
-                        <li><a href="">Optimo</a></li>
-                        <li><a href="">La Española</a></li>
-                        <li><a href="">Suchero</a></li>
-                        <li><a href="">Smucker's</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="gap-20"></div>
-                    
-                    <h3 class="listing-title">Price</h3>
-                    <div class="gap-10"></div>
-                    <input type="text" class="js-range-slider" name="my_range" value="" />
-                  </div>
-                </nav>
-              </div>
               <div class="col-lg-9">
-                <div class="filter-product">
-                  <div class="form-row">
-                    <div id="col2" class="col-6">
-                      <nav>
-                        <!-- <div class="rd-navbar-listing-toggle rd-navbar-static--hidden toggle-original"
-                          data-rd-navbar-toggle=".listing-filter-wrap"><span class="lnr lnr-list"></span> Filter</div> -->
-                      </nav>
-                      <div class="btn-group">
-                        <p class="filter-item-count">Sort: </p>
-                        <button type="button" class="btn dropdown-filter-btn dropdown-toggle mr-lg-auto" data-toggle="dropdown"
-                          aria-haspopup="true" aria-expanded="false">
-                          Popular
-                        </button>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Lorem Ipsum</a>
-                          <a class="dropdown-item" href="#">Lorem Ipsum</a>
-                          <a class="dropdown-item" href="#">Lorem Ipsum</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <div class="btn-group">
-                        <p class="filter-item-count ml-auto">Show products:</p>
-                        <button type="button" class="btn dropdown-filter-btn dropdown-toggle" data-toggle="dropdown"
-                          aria-haspopup="true" aria-expanded="false">
-                          12
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-right">
-                          <a class="dropdown-item" href="#">30</a>
-                          <a class="dropdown-item" href="#">60</a>
-                          <a class="dropdown-item" href="#">100</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="cart-title">
+                  <h2>My Cart</h2>
                 </div>
-                <div class="gap-20"></div>
-                <div class="list-product">
-                  <div class="row">
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
-                        <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
-                          <a href="product-profile.htm">
-                            <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
+        
+                <ul class="cart-wrap">
+                  <li class="item">
+                    <div class="remove-item">
+                      <a href="#" class="remove"><span class="lnr lnr-cross"></span></a>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-3 col-md-3 col-sm-4">
+                        <div class="img-wrap">
+                          <a href="product-profile.htm"><img src="images/misc/sm-rectangle.png" alt=""></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-9 col-md-9">
+                        <div class="info-wrap">
+                          <div class="cart-description">
+                            <h3 class="cart-product-title"><a href="product-profile.htm">Lorem Ipsum</a></h3>
+                            <div class="breadcrumb dark">
+                              <a href="product-listing.htm">Products</a>
+                              <span class="fa default"></span>
+                              <span class="current">Jams & Jellies</span>
                             </div>
-                            <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
-                          </a>
-                          <h3 class="product-price">PHP 500.00</h3>
+                          </div>
+                          <div class="cart-quantity">
+                            <div class="quantity">
+                              <input type="number" name="quantity" min="1" max="25" step="1" value="1" data-inc="1">
+                            </div>
+                          </div>
+                          <div class="cart-info">
+                            <div class="row">
+                              <div class="col-md-6">
+                              </div>
+                              <div class="col-md-6">
+                                <div class="cart-product-price">PHP 500.00</div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
-                        <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
-                          <a href="product-profile.htm">
-                            <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
-                            </div>
-                            <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
-                          </a>
-                          <h3 class="product-price">PHP 500.00</h3>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
-                        <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
-                          <a href="product-profile.htm">
-                            <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
-                            </div>
-                            <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
-                          </a>
-                          <h3 class="product-price">PHP 500.00</h3>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
-                        <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
-                          <a href="product-profile.htm">
-                            <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
-                            </div>
-                            <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
-                          </a>
-                          <h3 class="product-price">PHP 500.00</h3>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
-                        <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
-                          <a href="product-profile.htm">
-                            <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
-                            </div>
-                            <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
-                          </a>
-                          <h3 class="product-price">PHP 500.00</h3>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
-                        <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
-                          <a href="product-profile.htm">
-                            <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
-                            </div>
-                            <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
-                          </a>
-                          <h3 class="product-price">PHP 500.00</h3>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
-                        <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
-                          <a href="product-profile.htm">
-                            <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
-                            </div>
-                            <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
-                          </a>
-                          <h3 class="product-price">PHP 500.00</h3>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
-                        <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
-                          <a href="product-profile.htm">
-                            <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
-                            </div>
-                            <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
-                          </a>
-                          <h3 class="product-price">PHP 500.00</h3>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
-                        <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
-                          <a href="product-profile.htm">
-                            <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
-                            </div>
-                            <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
-                          </a>
-                          <h3 class="product-price">PHP 500.00</h3>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
-                        <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
-                          <a href="product-profile.htm">
-                            <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
-                            </div>
-                            <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
-                          </a>
-                          <h3 class="product-price">PHP 500.00</h3>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
-                        <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
-                          <a href="product-profile.htm">
-                            <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
-                            </div>
-                            <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
-                          </a>
-                          <h3 class="product-price">PHP 500.00</h3>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
-                        <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
-                          <a href="product-profile.htm">
-                            <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
-                            </div>
-                            <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
-                          </a>
-                          <h3 class="product-price">PHP 500.00</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-                <ul class="pagination">
-                  <li class="page-item">
-                    <a class="page-link" href="#" title="Back"><i class="lnr lnr-chevron-left"></i></a>
                   </li>
-                  <li class="page-item active">
-                    <a class="page-link" href="#">1</a>
+                  <li class="item">
+                    <div class="remove-item">
+                      <a href="#" class="remove"><span class="lnr lnr-cross"></span></a>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-3 col-md-3 col-sm-4">
+                        <div class="img-wrap">
+                          <a href="product-profile.htm"><img src="images/misc/sm-rectangle.png" alt=""></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-9 col-md-9">
+                        <div class="info-wrap">
+                          <div class="cart-description">
+                            <h3 class="cart-product-title"><a href="product-profile.htm">Lorem Ipsum</a></h3>
+                            <div class="breadcrumb dark">
+                              <a href="product-listing.htm">Products</a>
+                              <span class="fa default"></span>
+                              <span class="current">Jams & Jellies</span>
+                            </div>
+                          </div>
+                          <div class="cart-quantity">
+                            <div class="quantity">
+                              <input type="number" name="quantity" min="1" max="25" step="1" value="1" data-inc="1">
+                            </div>
+                          </div>
+                          <div class="cart-info">
+                            <div class="row">
+                              <div class="col-md-6">
+                              </div>
+                              <div class="col-md-6">
+                                <div class="cart-product-price">PHP 500.00</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">2</a>
+                  <li class="item">
+                    <div class="remove-item">
+                      <a href="#" class="remove"><span class="lnr lnr-cross"></span></a>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-3 col-md-3 col-sm-4">
+                        <div class="img-wrap">
+                          <a href="product-profile.htm"><img src="images/misc/sm-rectangle.png" alt=""></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-9 col-md-9">
+                        <div class="info-wrap">
+                          <div class="cart-description">
+                            <h3 class="cart-product-title"><a href="product-profile.htm">Lorem Ipsum</a></h3>
+                            <div class="breadcrumb dark">
+                              <a href="product-listing.htm">Products</a>
+                              <span class="fa default"></span>
+                              <span class="current">Jams & Jellies</span>
+                            </div>
+                          </div>
+                          <div class="cart-quantity">
+                            <div class="quantity">
+                              <input type="number" name="quantity" min="1" max="25" step="1" value="1" data-inc="1">
+                            </div>
+                          </div>
+                          <div class="cart-info">
+                            <div class="row">
+                              <div class="col-md-6">
+                              </div>
+                              <div class="col-md-6">
+                                <div class="cart-product-price">PHP 500.00</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">3 <span class="sr-only">(current)</span></a>
+                  <li class="item">
+                    <div class="remove-item">
+                      <a href="#" class="remove"><span class="lnr lnr-cross"></span></a>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-3 col-md-3 col-sm-4">
+                        <div class="img-wrap">
+                          <a href="product-profile.htm"><img src="images/misc/sm-rectangle.png" alt=""></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-9 col-md-9">
+                        <div class="info-wrap">
+                          <div class="cart-description">
+                            <h3 class="cart-product-title"><a href="product-profile.htm">Lorem Ipsum</a></h3>
+                            <div class="breadcrumb dark">
+                              <a href="product-listing.htm">Products</a>
+                              <span class="fa default"></span>
+                              <span class="current">Jams & Jellies</span>
+                            </div>
+                          </div>
+                          <div class="cart-quantity">
+                            <div class="quantity">
+                              <input type="number" name="quantity" min="1" max="25" step="1" value="1" data-inc="1">
+                            </div>
+                          </div>
+                          <div class="cart-info">
+                            <div class="row">
+                              <div class="col-md-6">
+                              </div>
+                              <div class="col-md-6">
+                                <div class="cart-product-price">PHP 500.00</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">4</a>
-                  </li>
-                  <li class="page-item">
-                    <a class="page-link" href="#" title="Next"><i class="lnr lnr-chevron-right"></i></a>
+                  <li class="item">
+                    <div class="remove-item">
+                      <a href="#" class="remove"><span class="lnr lnr-cross"></span></a>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-3 col-md-3 col-sm-4">
+                        <div class="img-wrap">
+                          <a href="product-profile.htm"><img src="images/misc/sm-rectangle.png" alt=""></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-9 col-md-9">
+                        <div class="info-wrap">
+                          <div class="cart-description">
+                            <h3 class="cart-product-title"><a href="product-profile.htm">Lorem Ipsum</a></h3>
+                            <div class="breadcrumb dark">
+                              <a href="product-listing.htm">Products</a>
+                              <span class="fa default"></span>
+                              <span class="current">Jams & Jellies</span>
+                            </div>
+                          </div>
+                          <div class="cart-quantity">
+                            <div class="quantity">
+                              <input type="number" name="quantity" min="1" max="25" step="1" value="1" data-inc="1">
+                            </div>
+                          </div>
+                          <div class="cart-info">
+                            <div class="row">
+                              <div class="col-md-6">
+                              </div>
+                              <div class="col-md-6">
+                                <div class="cart-product-price">PHP 500.00</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </li>
                 </ul>
+              </div>
+              <div class="col-lg-3">
+                <div class="cart-title">
+                  <h2>Summary</h2>
+                </div>
+                <div class="summary-wrap">
+                  <div class="subtotal">
+                    <div class="table">
+                      <div class="table-row">
+                        <div class="table-cell">
+                          Subtotal
+                        </div>
+                        <div class="table-cell">
+                          PHP 500.00
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grand-total">
+                    <div class="table">
+                      <div class="table-row">
+                        <div class="table-cell">
+                          Grand Total
+                        </div>
+                        <div class="table-cell">
+                          PHP 500.00
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="shipping-message">Shipping fees will apply <span class="white-spc">upon checkout</span></div>
+                  <div class="cart-btn">
+                    <div class="row">
+                      <div class="col-12">
+                        <a class="btn btn-lg secondary-btn" href="product-listing.htm">Update My Cart</a>
+                      </div>
+                      <div class="col-12">
+                        <a class="btn btn-lg primary-btn" href="checkout.htm">Proceed to Checkout</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </section>
-      
+
       </main>
       <!-- END Page Content -->
     

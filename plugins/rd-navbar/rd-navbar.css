@@ -3976,7 +3976,7 @@ h3+.card-custom-group-wrap {
 }
 
 .rd-navbar-static .rd-navbar-brand img {
-  max-height: 120px;
+  max-height: 65px;
   width: auto;
   transition: 0.11s ease-in;
   margin: 20px 0 5px;
@@ -4478,7 +4478,7 @@ h3+.card-custom-group-wrap {
 }
 
 .rd-navbar-fixed .rd-navbar-brand img {
-  height: 75px;
+  height: 45px;
   width: auto;
   margin: 0;
 }
