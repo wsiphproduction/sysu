@@ -115,4 +115,16 @@ $(document).ready(function() {
     slidesToScroll: 1,
     arrows: true
   });
+
+  var productGallerySlick = "#product-gallery-slider";
+  $(productGallerySlick)
+    .parent("div")
+    .prepend('<div id="pre-loader"></div>');
+
+  $(productGallerySlick).slick({
+    infinite: false,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    arrows: true
+  });
 });
