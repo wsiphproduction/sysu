@@ -69,7 +69,7 @@
   font-family: "linearicon";
   font-size: 18px;
   line-height: 1;
-  color: #EA891B;
+  color: #F14537;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -168,14 +168,14 @@
   font-size: 11px;
   line-height: 20px;
   text-align: center;
-  color: #EA891B;
+  color: #F14537;
   opacity: 0.25;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .slick-dots li.slick-active button:before {
-  color: #EA891B;
+  color: #F14537;
   opacity: 0.75;
 }
 
@@ -222,7 +222,7 @@
 #product-gallery-slider .slick-next:hover:before,
 #product-gallery-slider .slick-next:focus:before {
   opacity: 1;
-  color: #EA891B;
+  color: #F14537;
 }
 
 #slick-latest .slick-prev:before,
@@ -231,7 +231,7 @@
 #product-gallery-slider .slick-next:before {
   font-family: "slick";
   font-size: 28px;
-  color: #EA891B;
+  color: #F14537;
 }
 
 #slick-latest .slick-prev,
