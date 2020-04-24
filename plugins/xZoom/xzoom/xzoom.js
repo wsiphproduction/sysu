@@ -913,7 +913,7 @@ function detect_old_ie() {
     smoothScale: 6,
     defaultScale: 0, //from -1 to 1, that means -100% till 100% scale
     scroll: true,
-    tint: false, //'#color'
+    tint: true, //'#color'
     tintOpacity: 0.5,
     lens: false, //'#color'
     lensOpacity: 0.5,
