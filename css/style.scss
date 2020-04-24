@@ -2676,7 +2676,7 @@ form.filters {
 // PRODUCT CATALOG
 
 .product-card {
-    margin-bottom: 30px;
+    //margin-bottom: 30px;
     transition: all 0.1s ease-in-out;
 
     &:hover {
@@ -2866,10 +2866,10 @@ form.filters {
 .product-related {
     .product-link {
         display: block;
-        margin-bottom: 30px;
+        //margin-bottom: 30px;
 
         &:last-child {
-            margin-right: 1px;
+            //margin-right: 1px;
         }
     }
 
@@ -2877,7 +2877,7 @@ form.filters {
         background: transparent;
         width: 100%;
         transition: all 0.5s ease-out;
-        padding-bottom: 40px;
+        //padding-bottom: 40px;
         position: relative;
 
         &:hover {
@@ -2951,9 +2951,9 @@ form.filters {
 
         .product-price {
             font-family: $font1;
-            font-size: 1.15em;
+            font-size: .9em;
             color: $second-color;
-            font-weight: 300;
+            font-weight: 700;
             margin: 0;
             padding: 0;
         }
@@ -2961,7 +2961,8 @@ form.filters {
         .product-title {
             margin: 0 !important;
             font-size: .9em !important;
-            font-weight: 600;
+            font-weight: 300;
+			height:4em;
             color: $second-color;
             transition: inherit;
             margin: 0;
