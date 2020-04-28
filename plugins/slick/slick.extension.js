@@ -5,9 +5,9 @@ $(document).ready(function() {
     .prepend('<div id="preloader"><div id="status">&nbsp;</div></div>');
 
   setInterval(function() {
-    $(bannerSlick + " div.hero-slide").attr("data-animation-in", bannerFxIn);
-    $(bannerSlick + " div.hero-slide").attr("data-animation-out", bannerFxOut);
-    $(bannerSlick + " div.hero-slide").attr("data-delay", "0s");
+    $(bannerSlick + " div.banner-wrapper").attr("data-animation-in", bannerFxIn);
+    $(bannerSlick + " div.banner-wrapper").attr("data-animation-out", bannerFxOut);
+    $(bannerSlick + " div.banner-wrapper").attr("data-delay", "0s");
   }, 3000);
 
   $(bannerSlick).on("beforeChange", function(

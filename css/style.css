@@ -2645,6 +2645,35 @@ form.filters {
         left: -90px;
         height: 100%; }
 
+.main-banner {
+  position: relative; }
+  .main-banner .multiple-items {
+    height: 100%; }
+  .main-banner .banner-wrapper {
+    position: relative; }
+  .main-banner .banner-text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #333333; }
+    .main-banner .banner-text .banner-welcome {
+      background: none; }
+      .main-banner .banner-text .banner-welcome h2 {
+        font-weight: 700; }
+      .main-banner .banner-text .banner-welcome p {
+        font-weight: 400; }
+  .main-banner .banner-image img {
+    height: 100%;
+    width: 100%; }
+  .main-banner i {
+    color: white;
+    top: 50%;
+    font-size: 1.5rem;
+    cursor: pointer; }
+    .main-banner i:hover {
+      color: darkgray; }
+
 @font-face {
   font-family: 'Canela';
   font-style: normal;
