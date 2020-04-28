@@ -2706,6 +2706,7 @@ form.filters {
             display: -webkit-box;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
+			border:thin solid #f00;
         }
 
         .primary-btn {
@@ -2871,6 +2872,8 @@ form.filters {
         &:last-child {
             //margin-right: 1px;
         }
+		
+		i {font-size:.6em;}
     }
 
     .product-card {
@@ -2967,6 +2970,7 @@ form.filters {
             transition: inherit;
             margin: 0;
             padding: 0;
+			line-height:20px;
 
             &:hover {
                 color: $first-color;

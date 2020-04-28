@@ -2033,7 +2033,8 @@ form.filters {
       overflow: hidden;
       display: -webkit-box;
       -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical; }
+      -webkit-box-orient: vertical;
+      border: thin solid #f00; }
     .product-card .product-description .primary-btn {
       font-size: .65em; }
 
@@ -2133,6 +2134,9 @@ form.filters {
 .list-product .product-link,
 .product-related .product-link {
   display: block; }
+  .list-product .product-link i,
+  .product-related .product-link i {
+    font-size: .6em; }
 .list-product .product-card,
 .product-related .product-card {
   background: transparent;
@@ -2216,7 +2220,8 @@ form.filters {
     color: #333333;
     transition: inherit;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    line-height: 20px; }
     .list-product .product-card .product-title:hover,
     .product-related .product-card .product-title:hover {
       color: #F14537; }
