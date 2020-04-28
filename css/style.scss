@@ -3157,7 +3157,7 @@ form.filters {
             z-index: 3;
 
             * {
-                flex-basis: 50% !important;
+                /*flex-basis: 50% !important;*/
             }
 
             *:first-child {
@@ -3572,7 +3572,7 @@ form.filters {
         padding: 0 0px 0 2px;
         margin: 0;
         text-align: center;
-        width: 100%;
+        /*width: 100%;*/
         transition: all 0.15s ease-in-out;
         border-radius: 4px;
 
