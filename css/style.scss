@@ -3710,4 +3710,40 @@ form.filters {
   transition: width 0.25s;
 }
 
+// product quantity
+.shopping-cart-quantity {
+	width: 7.5em;
+	margin: auto;
+	span {font-size:.8rem;}
+	.minus-btn {
+		background: #cbd5d7;
+		color: #7d8587;
+		width:35px;
+		height:35px;
+		margin-right: 6px;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		&:focus {
+			box-shadow: none;
+		}
+	}
+	.quantity-fld {
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		text-align:center;
+	}
+	.plus-btn {
+		background: #cbd5d7;
+		color: #7d8587;
+		width:35px;
+		height:35px;
+		margin-left: 6px;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		&:focus {
+			box-shadow: none;
+		}
+	}
+}
+
 @import "responsive";

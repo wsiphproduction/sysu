@@ -2730,6 +2730,36 @@ form.filters {
   -webkit-backface-visibility: hidden;
   transition: width 0.25s; }
 
+.shopping-cart-quantity {
+  width: 7.5em;
+  margin: auto; }
+  .shopping-cart-quantity span {
+    font-size: .8rem; }
+  .shopping-cart-quantity .minus-btn {
+    background: #cbd5d7;
+    color: #7d8587;
+    width: 35px;
+    height: 35px;
+    margin-right: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px; }
+    .shopping-cart-quantity .minus-btn:focus {
+      box-shadow: none; }
+  .shopping-cart-quantity .quantity-fld {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    text-align: center; }
+  .shopping-cart-quantity .plus-btn {
+    background: #cbd5d7;
+    color: #7d8587;
+    width: 35px;
+    height: 35px;
+    margin-left: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px; }
+    .shopping-cart-quantity .plus-btn:focus {
+      box-shadow: none; }
+
 @font-face {
   font-family: 'Canela';
   font-style: normal;
