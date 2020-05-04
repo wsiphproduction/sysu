@@ -2873,7 +2873,7 @@ form.filters {
             //margin-right: 1px;
         }
 		
-		/*i {font-size:.6em;}*/
+		i {font-size:1.05em;}
     }
 
     .product-card {
@@ -3747,9 +3747,12 @@ form.filters {
 }
 .quantity-listing {width: 6.1em;
 	.btn {padding:0;}
-	.input-group > .form-control:not(:first-child) {font-size:12px;padding:0 !important;}
-	.minus-btn {width:31px;height:31px;}
-	.plus-btn {width:31px;height:31px;}
+	.input-group > .form-control:not(:first-child) {font-size:9px;padding:0 !important;}
+	.minus-btn {width:27px;height:27px;}
+	.plus-btn {width:27px;height:27px;}
+}
+.listing-bottom {display:grid;grid-template-columns:79% auto;
+	div:nth-child(2) {text-align:right;}
 }
 
 
