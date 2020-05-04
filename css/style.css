@@ -2133,10 +2133,8 @@ form.filters {
 
 .list-product .product-link,
 .product-related .product-link {
-  display: block; }
-  .list-product .product-link i,
-  .product-related .product-link i {
-    font-size: .6em; }
+  display: block;
+  /*i {font-size:.6em;}*/ }
 .list-product .product-card,
 .product-related .product-card {
   background: transparent;
@@ -2677,7 +2675,7 @@ form.filters {
 .search-form {
   position: absolute;
   top: -4px;
-  right: -32px;
+  right: -39px;
   transform: translate(-50%); }
 
 .input-group.search-group {
@@ -2732,7 +2730,7 @@ form.filters {
 
 .shopping-cart-quantity {
   width: 7.5em;
-  margin: auto; }
+  /*margin: auto;*/ }
   .shopping-cart-quantity span {
     font-size: .8rem; }
   .shopping-cart-quantity .minus-btn {
@@ -2759,6 +2757,20 @@ form.filters {
     border-radius: 6px; }
     .shopping-cart-quantity .plus-btn:focus {
       box-shadow: none; }
+
+.quantity-listing {
+  width: 6.1em; }
+  .quantity-listing .btn {
+    padding: 0; }
+  .quantity-listing .input-group > .form-control:not(:first-child) {
+    font-size: 12px;
+    padding: 0 !important; }
+  .quantity-listing .minus-btn {
+    width: 31px;
+    height: 31px; }
+  .quantity-listing .plus-btn {
+    width: 31px;
+    height: 31px; }
 
 @font-face {
   font-family: 'Canela';
@@ -3031,7 +3043,10 @@ form.filters {
     display: inline-block !important; }
 
   #cart-wrapper .container > .row > div:last-child {
-    margin-top: 60px; } }
+    margin-top: 60px; }
+
+  .banner-image {
+    height: 5em; } }
 @media (max-width: 768px) {
   .banner-overlay {
     display: none !important; }
@@ -3254,6 +3269,9 @@ form.filters {
     .product-wrap .product-detail .product-btn .product-wishlist svg {
       width: 40px; } }
 @media (max-width: 400px) {
+  .list-product .product-card .product-title {
+    height: 5em; }
+
   .product-wrap .product-detail .product-btn .add-cart-alt2-btn,
   .product-wrap .product-detail .product-btn .wishlist-btn {
     font-size: .65em; }
@@ -3263,4 +3281,7 @@ form.filters {
   .product-wrap .product-detail .product-btn .product-wishlist {
     padding-top: 20px; }
     .product-wrap .product-detail .product-btn .product-wishlist svg {
-      width: 40px; } }
+      width: 40px; }
+
+  .banner-image {
+    height: 4em; } }

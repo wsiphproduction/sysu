@@ -268,7 +268,7 @@
       	<section class="mt-4">
       		<div class="container">
       			<div class="row no-gutters">
-      				<div class="col-md-9">
+      				<div class="col-12">
       					<div class="main-banner">
 							<div class="slick-slider" id="banner">
 							  <div class="banner-wrapper">
@@ -294,17 +294,12 @@
 							</div>
 						</div>
       				</div>
-      				<div class="col-md-3">
-      					<a href="#">
-      						<img src="images/ads/ads1.jpg" />
-      					</a>
-      				</div>
       			</div>
       		</div>
       	</section>
       	
-        <section id="listing-wrapper">
-          <div class="container">
+        <section id="listing-wrapper pt-0">
+          <div class="container pt-4">
             <div class="breadcrumb dark">
               <a href="index.htm">Home</a>
               <span class="fa default"></span>
@@ -405,7 +400,7 @@
                 <div class="gap-20"></div>
                 <div class="list-product">
                   <div class="row no-gutters">
-                    <div class="col-lg-3 col-md-6 item">
+	<!--@jundrie - nagdagdagan ng col-6--><div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
@@ -420,14 +415,39 @@
                           </a>
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
-                          		<div class="col-10"><h3 class="product-price">₱ 500.00 | pc</h3></div>
-                          		<div class="col-2 text-right"><a href="#"><i class="fa fa-plus bg-success text-light p-1"></i></a></div>
+	<!--@jundrie - binago ko yung col-10 to col-12-->
+	<!--from col-10 to col-12--><div class="col-12"><h3 class="product-price">₱ 500.00 | pc</h3></div>
+	<!--@jundrie - binura ko yung hyperlink tag dito-->
                           	</div>
                           </div>
+  	<!--start @judrie - dinagdag ko itong part-->
+                          <div class="row no-gutters px-3 pb-3">
+							  <div class="col-10">
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[0]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[0]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[0]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="col-2 text-right">
+							   <a href="#"><i class="fa fa-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
+                          </div>
+	<!--end-->
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 item">
+                    <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
@@ -442,14 +462,35 @@
                           </a>
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
-                          		<div class="col-10"><h3 class="product-price">₱ 500.00 | pc</h3></div>
-                          		<div class="col-2 text-right"><a href="#"><i class="fa fa-plus bg-success text-light p-1"></i></a></div>
+                          		<div class="col-12"><h3 class="product-price">₱ 500.00 | pc</h3></div>
                           	</div>
+                          </div>
+                          <div class="row no-gutters px-3 pb-3">
+							  <div class="col-10">
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[1]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[1]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[1]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="col-2 text-right">
+							   <a href="#"><i class="fa fa-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 item">
+                    <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
@@ -464,14 +505,35 @@
                           </a>
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
-                          		<div class="col-10"><h3 class="product-price">₱ 500.00 | pc</h3></div>
-                          		<div class="col-2 text-right"><a href="#"><i class="fa fa-plus bg-success text-light p-1"></i></a></div>
+                          		<div class="col-12"><h3 class="product-price">₱ 500.00 | pc</h3></div>
                           	</div>
+                          </div>
+                          <div class="row no-gutters px-3 pb-3">
+							  <div class="col-10">
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[2]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[2]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[2]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="col-2 text-right">
+							   <a href="#"><i class="fa fa-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 item">
+                    <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
@@ -486,15 +548,36 @@
                           </a>
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
-                          		<div class="col-10"><h3 class="product-price">₱ 500.00 | pc</h3></div>
-                          		<div class="col-2 text-right"><a href="#"><i class="fa fa-plus bg-success text-light p-1"></i></a></div>
+                          		<div class="col-12"><h3 class="product-price">₱ 500.00 | pc</h3></div>
                           	</div>
+                          </div>
+                          <div class="row no-gutters px-3 pb-3">
+							  <div class="col-10">
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[3]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[3]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[3]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="col-2 text-right">
+							   <a href="#"><i class="fa fa-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
                           </div>
                         </div>
                       </div>
                     </div>
                     
-                    <div class="col-lg-3 col-md-6 item">
+                    <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
@@ -509,14 +592,35 @@
                           </a>
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
-                          		<div class="col-10"><h3 class="product-price">₱ 500.00 | pc</h3></div>
-                          		<div class="col-2 text-right"><a href="#"><i class="fa fa-plus bg-success text-light p-1"></i></a></div>
+                          		<div class="col-12"><h3 class="product-price">₱ 500.00 | pc</h3></div>
                           	</div>
+                          </div>
+                          <div class="row no-gutters px-3 pb-3">
+							  <div class="col-10">
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[4]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[4]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[4]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="col-2 text-right">
+							   <a href="#"><i class="fa fa-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 item">
+                    <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
@@ -532,13 +636,34 @@
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
                           		<div class="col-10"><h3 class="product-price">₱ 500.00 | pc</h3></div>
-                          		<div class="col-2 text-right"><a href="#"><i class="fa fa-plus bg-success text-light p-1"></i></a></div>
                           	</div>
+                          </div>
+                          <div class="row no-gutters px-3 pb-3">
+							  <div class="col-10">
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[5]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[5]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[5]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="col-2 text-right">
+							   <a href="#"><i class="fa fa-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 item">
+                    <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
@@ -553,14 +678,35 @@
                           </a>
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
-                          		<div class="col-10"><h3 class="product-price">₱ 500.00 | pc</h3></div>
-                          		<div class="col-2 text-right"><a href="#"><i class="fa fa-plus bg-success text-light p-1"></i></a></div>
+                          		<div class="col-12"><h3 class="product-price">₱ 500.00 | pc</h3></div>
                           	</div>
+                          </div>
+                          <div class="row no-gutters px-3 pb-3">
+							  <div class="col-10">
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[6]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[6]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[6]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="col-2 text-right">
+							   <a href="#"><i class="fa fa-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 item">
+                    <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
@@ -576,13 +722,34 @@
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
                           		<div class="col-10"><h3 class="product-price">₱ 500.00 | pc</h3></div>
-                          		<div class="col-2 text-right"><a href="#"><i class="fa fa-plus bg-success text-light p-1"></i></a></div>
                           	</div>
+                          </div>
+                          <div class="row no-gutters px-3 pb-3">
+							  <div class="col-10">
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[7]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[7]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[7]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="col-2 text-right">
+							   <a href="#"><i class="fa fa-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 item">
+                    <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
@@ -597,14 +764,35 @@
                           </a>
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
-                          		<div class="col-10"><h3 class="product-price">₱ 500.00 | pc</h3></div>
-                          		<div class="col-2 text-right"><a href="#"><i class="fa fa-plus bg-success text-light p-1"></i></a></div>
+                          		<div class="col-12"><h3 class="product-price">₱ 500.00 | pc</h3></div>
                           	</div>
+                          </div>
+                          <div class="row no-gutters px-3 pb-3">
+							  <div class="col-10">
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[8]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[8]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[8]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="col-2 text-right">
+							   <a href="#"><i class="fa fa-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 item">
+                    <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
@@ -619,14 +807,35 @@
                           </a>
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
-                          		<div class="col-10"><h3 class="product-price">₱ 500.00 | pc</h3></div>
-                          		<div class="col-2 text-right"><a href="#"><i class="fa fa-plus bg-success text-light p-1"></i></a></div>
+                          		<div class="col-12"><h3 class="product-price">₱ 500.00 | pc</h3></div>
                           	</div>
+                          </div>
+                          <div class="row no-gutters px-3 pb-3">
+							  <div class="col-10">
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[9]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[9]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[9]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="col-2 text-right">
+							   <a href="#"><i class="fa fa-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 item">
+                    <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
@@ -641,14 +850,35 @@
                           </a>
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
-                          		<div class="col-10"><h3 class="product-price">₱ 500.00 | pc</h3></div>
-                          		<div class="col-2 text-right"><a href="#"><i class="fa fa-plus bg-success text-light p-1"></i></a></div>
+                          		<div class="col-12"><h3 class="product-price">₱ 500.00 | pc</h3></div>
                           	</div>
+                          </div>
+                          <div class="row no-gutters px-3 pb-3">
+							  <div class="col-10">
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[10]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[10]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[10]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="col-2 text-right">
+							   <a href="#"><i class="fa fa-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 item">
+                    <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
@@ -663,9 +893,30 @@
                           </a>
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
-                          		<div class="col-10"><h3 class="product-price">₱ 500.00 | pc</h3></div>
-                          		<div class="col-2 text-right"><a href="#"><i class="fa fa-plus bg-success text-light p-1"></i></a></div>
+                          		<div class="col-12"><h3 class="product-price">₱ 500.00 | pc</h3></div>
                           	</div>
+                          </div>
+                          <div class="row no-gutters px-3 pb-3">
+							  <div class="col-10">
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[12]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[12]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[12]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="col-2 text-right">
+							   <a href="#"><i class="fa fa-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
                           </div>
                         </div>
                       </div>

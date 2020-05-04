@@ -29,7 +29,7 @@ $(document).ready(function() {
   $(bannerSlick).slick({
     autoplay: true,
     autoplaySpeed: autoPlayTimeout,
-    dots: true,
+    dots: false,
     fade: true,
     arrows: true,
     pauseOnHover: false

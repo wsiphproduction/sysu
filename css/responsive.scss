@@ -412,6 +412,7 @@
     #cart-wrapper .container > .row > div:last-child {
         margin-top: 60px;
     }
+	.banner-image {height:5em;}
 }
 
 @media (max-width: 768px) {
@@ -815,6 +816,7 @@
 }
 
 @media (max-width: 400px) {
+	.list-product .product-card .product-title {height:5em;}
     .product-wrap {
         .product-detail {
             .product-btn {
@@ -838,4 +840,5 @@
             }
         }
     }
+	.banner-image {height:4em;}
 }
