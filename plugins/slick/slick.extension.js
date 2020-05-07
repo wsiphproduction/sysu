@@ -32,7 +32,18 @@ $(document).ready(function() {
     dots: false,
     fade: true,
     arrows: true,
-    pauseOnHover: false
+    pauseOnHover: false,
+	responsive: [
+      {
+        breakpoint: 640,
+        settings: {
+          arrows: false
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
   });
 
   function doAnimationIn(elements) {

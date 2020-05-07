@@ -2959,12 +2959,13 @@ form.filters {
             font-weight: 700;
             margin: 0;
             padding: 0;
+			span {color:orange;}
         }
 
         .product-title {
             margin: 0 !important;
             font-size: .9em !important;
-            font-weight: 300;
+            font-weight: 700;
 			height:4em;
             color: $second-color;
             transition: inherit;
