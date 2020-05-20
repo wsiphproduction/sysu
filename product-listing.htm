@@ -123,6 +123,21 @@
                   <img src="images/misc/logo-header.jpg" alt="Artemis Salt" />
                 </a>
               </div>
+              <div class="rd-navbar-top-panel__content"> <!--desktop shopping icons-->
+				<div class="rd-navbar-top-panel__left">
+				  <ul class="rd-navbar-items-list">
+					<li>
+					  <a href=""><i class="fa fa-shopping-cart"></i> <span>Shopping Cart</span></a>
+					</li>
+				    <li>
+					  <a href=""><i class="fa fa-user-plus"></i> <span>Register</span></a>
+					</li>
+					<li>
+					  <a  href="#"><i class="fa fa-user"></i> <span>Log In</span></a>
+					</li>
+				  </ul>
+				</div>
+			  </div>
               <!-- END RD Navbar Brand -->
             </div>
 
@@ -205,11 +220,16 @@
                     </ul>
                     <!-- END RD Navbar Nav -->
                   </div>
-                  <div class="col-lg-1">
-                    <div class="rd-navbar-fixed--hidden float-right">
+                  <div class="col-lg-1 position-relative">
+                    <!--<div class="rd-navbar-fixed--hidden float-right">
                       <button class="rd-navbar-search__toggle rd-navbar-search__toggle_additional toggle-original"
                         data-rd-navbar-toggle=".rd-navbar-search-wrap"></button>
-                    </div>
+                    </div>-->
+                    <form class="search-form">
+						<div class="input-group search-group">
+							<input type="text" class="form-control search-control" placeholder="Enter your search term...">
+						</div><!-- /.input-group -->
+					</form><!-- /.search-form -->
                   </div>
                 </div>
               </div>
@@ -225,9 +245,42 @@
 
       <!-- Page Content -->
       <main>
-      
-        <section id="listing-wrapper">
-          <div class="container">
+      	
+      	<section class="mt-4">
+      		<div class="container">
+      			<div class="row no-gutters">
+      				<div class="col-12">
+      					<div class="main-banner">
+							<div class="slick-slider" id="banner">
+							  <div class="banner-wrapper">
+								<div class="banner-image"><img src="images/banners/banner1.jpg" /></div>
+								<!--<div class="banner-text pl-lg-5 ml-lg-5 p-md-5 d-flex align-items-center">
+									<div class="jumbotron banner-welcome p-0 m-0">
+									  <h2 class="display-4">Team of Skilled Pros</h2>
+									  <p class="lead">Led by few seasoned advertising industry pros, our agency delivers innovative <br>solutions across all the mediums available nowadays.</p>
+									  <a class="btn btn-primary btn-lg btn-main" href="#" role="button">Learn more</a>
+									</div>
+								</div>-->
+							  </div>
+							  <div class="banner-wrapper">
+								<div class="banner-image"><img src="images/banners/banner2.jpg" /></div>
+								<!--<div class="banner-text pl-lg-5 ml-lg-5 p-md-5 d-flex align-items-center">
+									<div class="jumbotron banner-welcome p-0 m-0">
+									  <h2 class="display-4">Team of Skilled Pros</h2>
+									  <p class="lead">Led by few seasoned advertising industry pros, our agency delivers innovative <br>solutions across all the mediums available nowadays.</p>
+									  <a class="btn btn-primary btn-lg btn-main" href="#" role="button">Learn more</a>
+									</div>
+								</div>-->
+							  </div>
+							</div>
+						</div>
+      				</div>
+      			</div>
+      		</div>
+      	</section>
+      	
+      	<section id="listing-wrapper pt-0">
+          <div class="container pt-4">
             <div class="breadcrumb dark">
               <a href="index.htm">Home</a>
               <span class="fa default"></span>
@@ -241,8 +294,8 @@
                     <div class="rd-navbar-listing-close-toggle rd-navbar-static--hidden toggle-original"><span
                       class="lnr lnr-cross"></span> Close</div>
                     <h3 class="listing-title">Product Categories</h3>
-                    <!-- <div class="rd-navbar-listing-close-toggle rd-navbar-static--hidden toggle-original"><span
-                        class="lnr lnr-cross"></span> Close</div> -->
+                    <!--<div class="rd-navbar-listing-close-toggle rd-navbar-static--hidden toggle-original"><span
+                        class="lnr lnr-cross"></span> Close</div>-->
                     <div class="side-menu menu-category">
                       <ul class="listing-category">
                         <li><a href="">Jams & Jellies</a></li>
@@ -264,25 +317,21 @@
                     <h3 class="listing-title">Brands</h3>
                     <div class="side-menu menu-category">
                       <ul class="listing-category">
+                        <li><a href="">CBTL</a></li>
                         <li><a href="">Clara Ole</a></li>
+                        <li><a href="">Dunkin Donut Coffee</a></li>
+                        <li><a href="">Folgers</a></li>
+                        <li><a href="">La Espanola</a></li>
                         <li><a href="">Lee Kum Kee</a></li>
                         <li><a href="">McCormick</a></li>
-                        <li><a href="">McCormick Culinary</a></li>
-                        <li><a href="">Folgers</a></li>
-                        <li><a href="">Tabasco</a></li>
-                        <li><a href="">JIF</a></li>
-                        <li><a href="">Tree Top</a></li>
-                        <li><a href="">Crystal Noodle</a></li>
-                        <li><a href="">Regilait</a></li>
-                        <li><a href="">Crisco</a></li>
-                        <li><a href="">Mom's Haus of Mushroom</a></li>
-                        <li><a href="">ProSource</a></li>
+                        <li><a href="">Natural Health</a></li>
                         <li><a href="">San Remo</a></li>
-                        <li><a href="">Tulip Chocolate</a></li>
-                        <li><a href="">Optimo</a></li>
-                        <li><a href="">La Española</a></li>
-                        <li><a href="">Suchero</a></li>
-                        <li><a href="">Smucker's</a></li>
+                        <li><a href="">Smuckers</a></li>
+                        <li><a href="">Sozo</a></li>
+                        <li><a href="">Tabasco</a></li>
+                        <li><a href="">Treetop</a></li>
+                        <li><a href="">Tulip</a></li>
+                        <li><a href="">Ulalammm</a></li>
                       </ul>
                     </div>
 
@@ -335,208 +384,525 @@
                 </div>
                 <div class="gap-20"></div>
                 <div class="list-product">
-                  <div class="row">
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
+                  <div class="row no-gutters">
+	<!-- nagdagdagan ng col-6--><div class="col-lg-3 col-md-4 col-6 item">
+                      <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
                             <span class="lnr lnr-heart"></span>
                           </button>
                           <a href="product-profile.htm">
                             <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
+                              <img src="images/misc/no-image.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
+                            <p class="product-title px-3">Class aptent taciti sociosqu ad litora torquent per conubia</p>
                           </a>
-                          <h3 class="product-price">PHP 500.00</h3>
+                          <div class="info position-relative">
+                          	<div class="row no-gutters px-3 pb-3">
+	<!-- binago ko yung col-10 to col-12-->
+	<!-- from col-10 to col-12 at kinulong ko yung price sa span tag--><div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
+	<!-- binura ko yung hyperlink tag dito-->
+                          	</div>
+                          </div>
+  	<!-- start @judrie - dinagdag ko itong part-->
+    <!--naglagay ako ng class "listing-bottom"--><div class="listing-bottom row no-gutters px-3 pb-3">
+  	<!--tinangal ko na yung class--><div>
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[0]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[0]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[0]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+  	<!--tinangal ko na yung class at pinalitan ng bago--><div class="rounded">
+	<!-- yung "fa-plus" pinalitan ko ng "fa-cart-plus"--><a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
+                          </div>
+	<!--end-->
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
+                    <div class="col-lg-3 col-md-4 col-6 item">
+                      <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
                             <span class="lnr lnr-heart"></span>
                           </button>
                           <a href="product-profile.htm">
                             <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
+                              <img src="images/products/earl-grey.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
+                            <p class="product-title px-3">Class aptent taciti sociosqu ad litora torquent per conubia</p>
                           </a>
-                          <h3 class="product-price">PHP 500.00</h3>
+                          <div class="info position-relative">
+                          	<div class="row no-gutters px-3 pb-3">
+								<div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
+                          	</div>
+                          </div>
+                          <div class="listing-bottom row no-gutters px-3 pb-3">
+							  <div>
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[1]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[1]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[1]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="rounded">
+							   <a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
+                    <div class="col-lg-3 col-md-4 col-6 item">
+                      <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
                             <span class="lnr lnr-heart"></span>
                           </button>
                           <a href="product-profile.htm">
                             <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
+                              <img src="images/products/english-breakfast.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
+                            <p class="product-title px-3">English Breakfast</p>
                           </a>
-                          <h3 class="product-price">PHP 500.00</h3>
+                          <div class="info position-relative">
+                          	<div class="row no-gutters px-3 pb-3">
+								<div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
+                          	</div>
+                          </div>
+                          <div class="listing-bottom row no-gutters px-3 pb-3">
+							  <div>
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[2]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[2]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[2]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="rounded">
+							   <a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
+                    <div class="col-lg-3 col-md-4 col-6 item">
+                      <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
                             <span class="lnr lnr-heart"></span>
                           </button>
                           <a href="product-profile.htm">
                             <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
+                              <img src="images/products/mint-tea.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
+                            <p class="product-title px-3">Class aptent taciti sociosqu ad litora torquent per conubia</p>
                           </a>
-                          <h3 class="product-price">PHP 500.00</h3>
+                          <div class="info position-relative">
+                          	<div class="row no-gutters px-3 pb-3">
+								<div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
+                          	</div>
+                          </div>
+                          <div class="listing-bottom row no-gutters px-3 pb-3">
+							  <div>
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[3]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[3]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[3]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="rounded">
+							   <a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
+                    
+                    <div class="col-lg-3 col-md-4 col-6 item">
+                      <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
                             <span class="lnr lnr-heart"></span>
                           </button>
                           <a href="product-profile.htm">
                             <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
+                              <img src="images/products/columbian.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
+                            <p class="product-title px-3">Dunkin Donut Columbian</p>
                           </a>
-                          <h3 class="product-price">PHP 500.00</h3>
+                          <div class="info position-relative">
+                          	<div class="row no-gutters px-3 pb-3">
+								<div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
+                          	</div>
+                          </div>
+                          <div class="listing-bottom row no-gutters px-3 pb-3">
+							  <div>
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[4]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[4]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[4]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="rounded">
+							   <a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
+                    <div class="col-lg-3 col-md-4 col-6 item">
+                      <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
                             <span class="lnr lnr-heart"></span>
                           </button>
                           <a href="product-profile.htm">
                             <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
+                              <img src="images/products/french-roast.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
+                            <p class="product-title px-3">Dunkin Donut French Roast</p>
                           </a>
-                          <h3 class="product-price">PHP 500.00</h3>
+                          <div class="info position-relative">
+                          	<div class="row no-gutters px-3 pb-3">
+								<div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
+                          	</div>
+                          </div>
+                          <div class="listing-bottom row no-gutters px-3 pb-3">
+							  <div>
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[5]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[5]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[5]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="rounded">
+							   <a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
+                    <div class="col-lg-3 col-md-4 col-6 item">
+                      <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
                             <span class="lnr lnr-heart"></span>
                           </button>
                           <a href="product-profile.htm">
                             <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
+                              <img src="images/products/decaf.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
+                            <p class="product-title px-3">Dunkin Donut Decaf</p>
                           </a>
-                          <h3 class="product-price">PHP 500.00</h3>
+                          <div class="info position-relative">
+                          	<div class="row no-gutters px-3 pb-3">
+								<div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
+                          	</div>
+                          </div>
+                          <div class="listing-bottom row no-gutters px-3 pb-3">
+							  <div>
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[6]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[6]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[6]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="rounded">
+							   <a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
+                    <div class="col-lg-3 col-md-4 col-6 item">
+                      <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
                             <span class="lnr lnr-heart"></span>
                           </button>
                           <a href="product-profile.htm">
                             <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
+                              <img src="images/products/hazel.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
+                            <p class="product-title px-3">Dunkin Donut Hazelnut</p>
                           </a>
-                          <h3 class="product-price">PHP 500.00</h3>
+                          <div class="info position-relative">
+                          	<div class="row no-gutters px-3 pb-3">
+								<div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
+                          	</div>
+                          </div>
+                          <div class="listing-bottom row no-gutters px-3 pb-3">
+							  <div>
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[7]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[7]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[7]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="rounded">
+							   <a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
+                    <div class="col-lg-3 col-md-4 col-6 item">
+                      <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
                             <span class="lnr lnr-heart"></span>
                           </button>
                           <a href="product-profile.htm">
                             <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
+                              <img src="images/products/french-toast.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
+                            <p class="product-title px-3">Dunkin Donut French Toast</p>
                           </a>
-                          <h3 class="product-price">PHP 500.00</h3>
+                          <div class="info position-relative">
+                          	<div class="row no-gutters px-3 pb-3">
+								<div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
+                          	</div>
+                          </div>
+                          <div class="listing-bottom row no-gutters px-3 pb-3">
+							  <div>
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[8]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[8]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[8]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="rounded">
+							   <a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
+                    <div class="col-lg-3 col-md-4 col-6 item">
+                      <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
                             <span class="lnr lnr-heart"></span>
                           </button>
                           <a href="product-profile.htm">
                             <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
+                              <img src="images/products/asian.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
+                            <p class="product-title px-3">Dips n' dressings Asian</p>
                           </a>
-                          <h3 class="product-price">PHP 500.00</h3>
+                          <div class="info position-relative">
+                          	<div class="row no-gutters px-3 pb-3">
+								<div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
+                          	</div>
+                          </div>
+                          <div class="listing-bottom row no-gutters px-3 pb-3">
+							  <div>
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[9]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[9]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[9]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="rounded">
+							   <a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
+                    <div class="col-lg-3 col-md-4 col-6 item">
+                      <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
                             <span class="lnr lnr-heart"></span>
                           </button>
                           <a href="product-profile.htm">
                             <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
+                              <img src="images/products/caesar.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
+                            <p class="product-title px-3">Dips n' dressings Ceasar</p>
                           </a>
-                          <h3 class="product-price">PHP 500.00</h3>
+                          <div class="info position-relative">
+                          	<div class="row no-gutters px-3 pb-3">
+								<div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
+                          	</div>
+                          </div>
+                          <div class="listing-bottom row no-gutters px-3 pb-3">
+							  <div>
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[10]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[10]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[10]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="rounded">
+							   <a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 item">
-                      <div class="product-link">
+                    <div class="col-lg-3 col-md-4 col-6 item">
+                      <div class="product-link border">
                         <div class="product-card">
                           <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
                             <span class="lnr lnr-heart"></span>
                           </button>
                           <a href="product-profile.htm">
                             <div class="product-img">
-                              <img src="images/misc/rectangle.png" alt="" />
+                              <img src="images/products/thousand-island.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title">Lorem Ipsum</p>
+                            <p class="product-title px-3">Dips n' dressings Thousand Island</p>
                           </a>
-                          <h3 class="product-price">PHP 500.00</h3>
+                          <div class="info position-relative">
+                          	<div class="row no-gutters px-3 pb-3">
+								<div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
+                          	</div>
+                          </div>
+                          <div class="listing-bottom row no-gutters px-3 pb-3">
+							  <div>
+								<div class="shopping-cart-quantity quantity-listing">
+								<div class="input-group">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[12]">
+									  <span class="fa fa-minus"></span>
+									</button>
+								  </span>
+								  <input type="text" name="quant[12]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+								  <span class="input-group-btn">
+									<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[12]">
+									  <span class="fa fa-plus"></span>
+									</button>
+								  </span>
+								</div>
+								</div>
+							  </div>
+							  <div class="rounded">
+							   <a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
+							  </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -553,11 +919,14 @@
                   <li class="page-item">
                     <a class="page-link" href="#">2</a>
                   </li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">3 <span class="sr-only">(current)</span></a>
+                   <li class="page-item">
+                    <a class="page-link" href="#">...</a>
                   </li>
                   <li class="page-item">
-                    <a class="page-link" href="#">4</a>
+                    <a class="page-link" href="#">7 <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">8</a>
                   </li>
                   <li class="page-item">
                     <a class="page-link" href="#" title="Next"><i class="lnr lnr-chevron-right"></i></a>
@@ -659,14 +1028,15 @@
       <span class="lnr lnr-chevron-up"></span>
     </div>
   </div>
-
-  <script type="text/javascript">
-    var bannerFxIn = "fadeIn";
-    var bannerFxOut = "fadeOut";
-    var autoPlayTimeout = 4000;
-    var bannerID = "banner";
-  </script>
-
+	
+	<script type="text/javascript">
+		var bannerFxIn = "slideInLeft";
+		var bannerFxOut = "slideOutRight";
+		var bannerCaptionFxIn = "fadeInUp";
+		var autoPlayTimeout = "4000";
+		var bannerID = "banner";
+	</script>
+	
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/script.js"></script>
   <script src="plugins/materialize/js/materialize.js"></script>

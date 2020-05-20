@@ -124,6 +124,18 @@
                   <img src="images/misc/logo-header.jpg" alt="Artemis Salt" />
                 </a>
               </div>
+              <div class="rd-navbar-top-panel__content"> <!--desktop shopping icons-->
+				<div class="rd-navbar-top-panel__left">
+				  <ul class="rd-navbar-items-list">
+					<li>
+					  <a href=""><i class="fa fa-shopping-cart"></i> <span>Shopping Cart</span></a>
+					</li>
+					<li>
+					  <a  href="#"><i class="fa fa-user"></i> <span>Log In</span></a>
+					</li>
+				  </ul>
+				</div>
+			  </div>
               <!-- END RD Navbar Brand -->
             </div>
 
@@ -207,10 +219,15 @@
                     <!-- END RD Navbar Nav -->
                   </div>
                   <div class="col-lg-1">
-                    <div class="rd-navbar-fixed--hidden float-right">
+                    <!--<div class="rd-navbar-fixed--hidden float-right">
                       <button class="rd-navbar-search__toggle rd-navbar-search__toggle_additional toggle-original"
                         data-rd-navbar-toggle=".rd-navbar-search-wrap"></button>
-                    </div>
+                    </div>-->
+                    <form class="search-form">
+						<div class="input-group search-group">
+							<input type="text" class="form-control search-control" placeholder="Enter your search term...">
+						</div><!-- /.input-group -->
+					</form><!-- /.search-form -->
                   </div>
                 </div>
               </div>
@@ -244,21 +261,22 @@
 
               <div class="product-wrap">
                 <div class="row">
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
                     <div class="xzoom-container">
-                      <img class="xzoom" id="xzoom-default" src="images/misc/lg-rectangle.png"
-                        xoriginal="images/misc/lg-rectangle.png" />
+                      <img class="xzoom" id="xzoom-default" src="images/products/preview/columbian-large.jpg"
+                        xoriginal="images/products/columbian.jpg" />
                     </div>
                     <div id="product-gallery-slider" class="slick-slider">
-                      <a href="images/misc/lg-rectangle.png" class="xzoom-link"><img class="xzoom-gallery" src="images/misc/lg-rectangle.png"
-                          xpreview="images/misc/lg-rectangle.png"></a>
-                      <a href="images/misc/lg-rectangle.png" class="xzoom-link"><img class="xzoom-gallery" src="images/misc/lg-rectangle.png"></a>
-                      <a href="images/misc/lg-rectangle.png" class="xzoom-link"><img class="xzoom-gallery" src="images/misc/lg-rectangle.png"></a>
-                      <a href="images/misc/lg-rectangle.png" class="xzoom-link"><img class="xzoom-gallery" src="images/misc/lg-rectangle.png"></a>
-                      <a href="images/misc/lg-rectangle.png" class="xzoom-link"><img class="xzoom-gallery" src="images/misc/lg-rectangle.png"></a>
-                      <a href="images/misc/lg-rectangle.png" class="xzoom-link"><img class="xzoom-gallery" src="images/misc/lg-rectangle.png"></a>
+                      <a href="images/products/columbian.jpg" class="xzoom-link"><img class="xzoom-gallery" src="images/products/columbian.jpg"
+                          xpreview="images/products/preview/columbian-large.jpg"></a>
+                      <a href="images/products/columbian.jpg" class="xzoom-link"><img class="xzoom-gallery" src="images/products/preview/columbian-large.jpg"></a>
+                      <a href="images/products/french-roast.jpg" class="xzoom-link"><img class="xzoom-gallery" src="images/products/preview/french-roast.jpg"></a>
+                      <a href="images/products/decaf.jpg" class="xzoom-link"><img class="xzoom-gallery" src="images/products/preview/decaf.jpg"></a>
+                      <a href="images/products/hazel.jpg" class="xzoom-link"><img class="xzoom-gallery" src="images/products/preview/french-roast.jpg"></a>
+                      <a href="images/products/french-toast.jpg" class="xzoom-link"><img class="xzoom-gallery" src="images/products/preview/french-roast.jpg"></a>
                     </div>
                   </div>
+                  
                   <div class="col-lg-6">
                     <form id="addToCart" data-source="addToCart">
                       <div class="product-detail">
@@ -277,17 +295,36 @@
                             <li>Free shipping with 4 days delivery</li>
                           </ul>
                         </div>
-                        
-                        
-                        <div class="w-100">
+                      </div>
+                    </form>
+                  </div>
+                  
+                  <div class="col-lg-2">
+                  	<div class="product-detail">
+                  		<div class="w-100">
                           <div class="product-info">
                             <div class="container p-0">
                               <div class="row">
                                 <div class="col-md-4">
-                                  <label for="quantity">Qty</label>
-                                  <div class="quantity">
+                                  <label for="quantity">Quantity</label>
+                                  <!--<div class="quantity">
                                     <input type="number" name="quantity" min="1" max="25" step="1" value="1" data-inc="1">
-                                  </div>
+                                  </div>-->
+                                  <div class="shopping-cart-quantity">
+									<div class="input-group">
+									  <span class="input-group-btn">
+										<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[1]">
+										  <span class="fa fa-minus"></span>
+										</button>
+									  </span>
+									  <input type="text" name="quant[1]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
+									  <span class="input-group-btn">
+										<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[1]">
+										  <span class="fa fa-plus"></span>
+										</button>
+									  </span>
+									</div>
+								  </div>
                                 </div>
                                 <div class="col-lg-12">
                                   <div class="gap-10"></div>
@@ -301,15 +338,13 @@
                             <button id="b3" type="button" class="btn btn-lg add-cart-alt2-btn addToCartButton" data-loading-text="processing...">
                               <img src="images/misc/cart.png" alt=""> Add to cart
                             </button>
-                            <button type="button" class="btn btn-lg wishlist-btn buyNowButton" data-loading-text="processing...">
+                            <!--<button type="button" class="btn btn-lg wishlist-btn buyNowButton" data-loading-text="processing...">
                               <img src="images/misc/heart-black.png" alt=""> Add to wishlist
-                            </button>
+                            </button>-->
                           </div>
                           <div class="gap-10"></div>
                         </div>
-                      </div>
-                    </form>
-              
+                  	</div>
                   </div>
                 </div>
               </div>
