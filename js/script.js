@@ -292,3 +292,5 @@ $('.input-number').change(function() {
 
 });
 
+
+
