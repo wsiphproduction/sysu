@@ -4180,6 +4180,15 @@ h3+.card-custom-group-wrap {
   border-bottom: 2px solid var(--first-color); */
 }
 
+.rd-navbar-listing.rd-navbar-static.rd-navbar--is-stuck {
+  position: relative !important;
+  z-index: 800;
+}
+
+.rd-navbar-listing.rd-navbar-static {
+  background-color: transparent;
+}
+
 .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-panel,
 .rd-navbar-static.rd-navbar--is-clone .rd-navbar-panel {
   display: block !important;

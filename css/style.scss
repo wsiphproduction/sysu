@@ -3755,6 +3755,8 @@ form.filters {
 	div:nth-child(2) {text-align:right;}
 }
 
-
+#col2 {
+    height: initial !important;
+}
 
 @import "responsive";
