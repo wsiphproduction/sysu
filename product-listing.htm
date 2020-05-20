@@ -63,8 +63,6 @@
           <!-- RD Navbar Upper Panel -->
           <div class="rd-navbar-upper-panel">
             <p class="rd-navbar-verbiage">Free Shipping on Flatpacks and $49 Orders</p>
-            <div class="rd-navbar-top-panel__toggle rd-navbar-fixed__element-1 rd-navbar-static--hidden toggle-original"
-            data-rd-navbar-toggle=".rd-navbar-top-panel__main"><span></span></div>
           </div>
           <!-- END RD Navbar Upper Panel -->
 
@@ -238,8 +236,10 @@
             <div class="gap-20"></div>
             <div class="row">
               <div id="col1" class="col-lg-3">
-                <nav class="rd-navbar-listing">
+                <nav class="rd-navbar rd-navbar-listing">
                   <div class="listing-filter-wrap">
+                    <div class="rd-navbar-listing-close-toggle rd-navbar-static--hidden toggle-original"><span
+                      class="lnr lnr-cross"></span> Close</div>
                     <h3 class="listing-title">Product Categories</h3>
                     <!-- <div class="rd-navbar-listing-close-toggle rd-navbar-static--hidden toggle-original"><span
                         class="lnr lnr-cross"></span> Close</div> -->
@@ -298,9 +298,9 @@
                 <div class="filter-product">
                   <div class="form-row">
                     <div id="col2" class="col-6">
-                      <nav>
-                        <!-- <div class="rd-navbar-listing-toggle rd-navbar-static--hidden toggle-original"
-                          data-rd-navbar-toggle=".listing-filter-wrap"><span class="lnr lnr-list"></span> Filter</div> -->
+                      <nav class="rd-navbar">
+                        <div class="rd-navbar-listing-toggle rd-navbar-static--hidden toggle-original"
+                          data-rd-navbar-toggle=".listing-filter-wrap"><span class="lnr lnr-list"></span> Filter</div>
                       </nav>
                       <div class="btn-group">
                         <p class="filter-item-count">Sort: </p>
@@ -316,6 +316,8 @@
                       </div>
                     </div>
                     <div class="col-6">
+                      <p class="text-right">6817 Item/s found</p>
+                      <div class="gap-10"></div>
                       <div class="btn-group">
                         <p class="filter-item-count ml-auto">Show products:</p>
                         <button type="button" class="btn dropdown-filter-btn dropdown-toggle" data-toggle="dropdown"

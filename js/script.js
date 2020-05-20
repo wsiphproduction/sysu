@@ -136,6 +136,12 @@ $(".rd-navbar-close-search__toggle").on("click", function () {
   $(".rd-navbar-search-wrap").removeClass("active");
 });
 
+// jQuery for closing Listing Filter Wrap
+
+$(".rd-navbar-listing-close-toggle").on("click", function() {
+  $(".listing-filter-wrap").removeClass("active");
+});
+
 // Script for Countdown
 
 (function ($) {

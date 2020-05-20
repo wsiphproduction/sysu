@@ -4178,7 +4178,7 @@ h3+.card-custom-group-wrap {
 
 .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-panel,
 .rd-navbar-static.rd-navbar--is-clone .rd-navbar-panel {
-  display: none;
+  display: block !important;
 }
 
 .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-nav-wrap,

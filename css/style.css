@@ -2981,10 +2981,9 @@ form.filters option {
   z-index: 80;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  -webkit-transform: translateY(90%);
-          transform: translateY(90%);
-  padding: 0 30px;
-  margin-left: 10px;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  padding: 0;
 }
 
 .rd-navbar-listing {
@@ -4433,7 +4432,7 @@ form.filters option {
 
 @media (max-width: 560px) {
   .product-wrap .product-detail .product-btn .add-cart-alt2-btn,
-  .product-wrap .product-detail .product-btn .buy-now-btn {
+  .product-wrap .product-detail .product-btn .wishlist-btn {
     font-size: .75em;
   }
   .article-meta-share {

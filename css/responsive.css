@@ -587,7 +587,7 @@
 
 @media (max-width: 560px) {
   .product-wrap .product-detail .product-btn .add-cart-alt2-btn,
-  .product-wrap .product-detail .product-btn .buy-now-btn {
+  .product-wrap .product-detail .product-btn .wishlist-btn {
     font-size: .75em;
   }
   .article-meta-share {
