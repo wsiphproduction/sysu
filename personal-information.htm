@@ -263,136 +263,69 @@
     <!-- Page Content -->
       <!-- InstanceBeginEditable name="EditRegion1" -->
       <main>
-      
-        <section class="py-5">
-        	<div class="container">
-        		<div class="row">
-        			<div class="col-lg-8 pb-5">
-        				<h3 class="catalog-title">Product Categories</h3>
-        				
-        				<div class="alert alert-primary" role="alert">
-						  Your shopping cart is <strong>empty</strong>.
-						</div>
-      					
-      					<div class="cart-table mb-3">
-      						<div class="cart-table-item">
-      							<div class="cart-table-remove">
-									<a href="#" class="btn btn-primary btn-sm btn-warning">Remove Item</a>
-								</div>
-     							
-      							<div class="row no-gutters">
-      								<div class="col-lg-4 col-md-5 p-3">
-      									<a href="#" class="prod-avatar"><img src="images/products/asian.jpg" /></a>
-      								</div>
-      								<div class="col-lg-6 col-md-7 p-3">
-      									<div class="cart-table-content">
-      										<a href="#" class="prod-name">CBTL FL TEA CHAMOMILE 48x18x2g/CS</a>
-      										<nav aria-label="breadcrumb">
-											  <ol class="breadcrumb small m-0">
-												<li class="breadcrumb-item"><a href="#">Baking</a></li>
-												<li class="breadcrumb-item active" aria-current="page">Chocolate Compound</li>
-											  </ol>
-											</nav>
-      										<div class="prod-qty">
-      											<small>Quantity</small>
-												<div class="input-group">
-												  <span class="input-group-btn">
-													<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[0]">
-													  <span class="fa fa-minus"></span>
-													</button>
-												  </span>
-												  <input type="text" name="quant[0]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
-												  <span class="input-group-btn">
-													<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[0]">
-													  <span class="fa fa-plus"></span>
-													</button>
-												  </span>
-												</div>
-											</div>
-    										<small>Total</small>
-     										<div class="prod-total"><strong>₱ 31.00</strong></div>
-      									</div>
-      								</div>
-      							</div>
-      						</div>
+      	
+      	<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		</div>
+     	<span onclick="closeNav()" class="dark-curtain"></span>
+      	
+      	<section class="py-5">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-3">      					
+      					<div class="desk-cat d-none d-lg-block">
+							<div class="quick-nav">
+								<h3 class="catalog-title">My Account</h3>
+								<ul>
+									<li class="active"><a href="personal-information.htm">Manage Account</a>
+										<span class="fa fa-chevron-down text-center small rotate"></span>
+										<ul>
+											<li class="active"><a href="personal-information.htm">Personal Information</a></li>
+											<li><a href="contact-information.htm">Contact Information</a></li>
+											<li><a href="delivery-address.htm">Delivery Address</a></li>
+										</ul>
+									</li>
+									<li><a href="change-password.htm">Change Password</a></li>
+									<li><a href="transaction.htm">My Orders</a></li>
+								</ul>
+							</div>
       					</div>
-      					
-      					<div class="cart-table mb-3">
-      						<div class="cart-table-item">
-      							<div class="cart-table-remove">
-									<a href="#" class="btn btn-primary btn-sm btn-warning">Remove Item</a>
-								</div>
-     							
-      							<div class="row no-gutters">
-      								<div class="col-lg-4 col-md-5 p-3">
-      									<a href="#" class="prod-avatar"><img src="images/products/asian.jpg" /></a>
-      								</div>
-      								<div class="col-lg-6 col-md-7 p-3">
-      									<div class="cart-table-content">
-      										<a href="#" class="prod-name">CBTL FL TEA CHAMOMILE 48x18x2g/CS</a>
-      										<nav aria-label="breadcrumb">
-											  <ol class="breadcrumb small m-0">
-												<li class="breadcrumb-item"><a href="#">Baking</a></li>
-												<li class="breadcrumb-item active" aria-current="page">Chocolate Compound</li>
-											  </ol>
-											</nav>
-      										<div class="prod-qty">
-      											<small>Quantity</small>
-												<div class="input-group">
-												  <span class="input-group-btn">
-													<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[1]">
-													  <span class="fa fa-minus"></span>
-													</button>
-												  </span>
-												  <input type="text" name="quant[1]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
-												  <span class="input-group-btn">
-													<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[1]">
-													  <span class="fa fa-plus"></span>
-													</button>
-												  </span>
-												</div>
-											</div>
-    										<small>Total</small>
-     										<div class="prod-total"><strong>₱ 31.00</strong></div>
-      									</div>
-      								</div>
-      							</div>
-      						</div>
-      					</div>
-        			</div>
-
-					<div class="col-lg-4">
-						<h3 class="catalog-title">Shopping Cart Total</h3>
-						
-						<div class="cart-table-2">
-							<div class="cart-table-row">
-								<div class="cart-table-2-col">
-									<div class="cart-table-2-title">Subtotal</div>									
-								</div>
-								<div class="cart-table-2-col">
-									<div class="cart-table-2-title text-right">₱ 606.08</div>									
-								</div>
-							</div>
-							<div class="cart-table-row">
-								<div class="cart-table-2-col">
-									<div class="cart-table-2-title"><strong>Grand Total</strong></div>
-								</div>
-								<div class="cart-table-2-col">
-									<div class="cart-table-2-title text-right"><strong>₱ 606.08</strong></div>
-								</div>
-							</div>
-							<div class="cart-table-row">
-								<div class="cart-table-1-col">
-									<p class="small font-italic pb-3">Shipping fees will apply upon checkout</p>
-									<a href="#" class="btn btn-primary btn-block"><i class="fa fa-check"></i> Proceed to Checkout</a>
-								</div>
-							</div>
+       				</div>
+       				<div class="col-lg-9">
+       					<span onclick="openNav()" class="filter-btn d-block d-lg-none pb-3"><i class="fa fa-list"></i> Options</span>
+        				<h3 class="catalog-title">Personal Information</h3>
+        				<div class="alert alert-danger" role="alert">
+						  This is a danger alert—check it out!
 						</div>
+						<div class="alert alert-success" role="alert">
+						  This is a success alert—check it out!
+						</div>
+        				<form autocomplete="off" class="form" role="form">
+						  <div class="form-group row">
+							<label class="col-lg-3 col-form-label form-control-label">First name</label>
+							<div class="col-lg-9">
+							  <input class="form-control" type="text" value="Jane">
+							</div>
+						  </div>
+						  <div class="form-group row">
+							<label class="col-lg-3 col-form-label form-control-label">Last name</label>
+							<div class="col-lg-9">
+							  <input class="form-control" type="text" value="Bishop">
+							</div>
+						  </div>
+						  <div class="form-group row">
+							<label class="col-lg-3 col-form-label form-control-label"></label>
+							<div class="col-lg-9">
+							  <input class="btn btn-secondary" type="reset" value="Cancel"> 
+							  <input class="btn btn-success" type="button" value="Save Changes">
+							</div>
+						  </div>
+						</form>
 					</div>
-        		</div>
-        	</div>
-        </section>
-            
+      			</div>
+      		</div>
+      	</section>
+      	
       </main>
       <!-- InstanceEndEditable -->
     <!-- END Page Content -->

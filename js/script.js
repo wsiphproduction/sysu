@@ -10,8 +10,7 @@ $(window).on("load", function () {
 });
 
 // @description FadeOut to Next Page
-
-$(document).ready(function() {
+/*$(document).ready(function() {
   $(document).on("click", "a", function(e) {
     e.preventDefault();
 
@@ -47,10 +46,9 @@ $(document).ready(function() {
       });
     });
   });
-});
+});*/
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-
 $(function() {
   $(".navbar-nav li a").bind("click", function(event) {
     var $anchor = $(this);
@@ -81,7 +79,6 @@ $(function() {
 });
 
 // jQuery for Side Menu feature
-
 $(function() {
   var navikMenuListDropdown = $(".side-menu ul li:has(ul)");
 
@@ -108,7 +105,6 @@ $(function() {
 });
 
 // jQuery for Jump to Top
-
 $(window).scroll(function() {
   if ($(this).scrollTop() > $(".rd-navbar").height()) {
     $(".side-widget").fadeIn();
@@ -122,7 +118,6 @@ $("#top").click(function() {
 });
 
 // jQuery for Adding Z Index Navbar Dropdown
-
 $(document).ready(function() {
   $count = $(".rd-navbar-dropdown").length;
   for (var $i = 0; $i < $count; $i++) {
@@ -131,7 +126,6 @@ $(document).ready(function() {
 });
 
 // jQuery for closing RD Search Wrap
-
 $(".rd-navbar-close-search__toggle").on("click", function () {
   $(".rd-navbar-search-wrap").removeClass("active");
 });
@@ -143,7 +137,6 @@ $(".rd-navbar-listing-close-toggle").on("click", function() {
 });
 
 // Script for Countdown
-
 (function ($) {
   var o = $("ul#countdown");
   if (o.length > 0) {
@@ -175,7 +168,6 @@ $(".rd-navbar-listing-close-toggle").on("click", function() {
 })(jQuery);
 
 // Input Type Number
-
 $("input[type='number']").keydown(function() {
   return event.keyCode == 69 ||
     event.keyCode == 187 ||
@@ -187,7 +179,6 @@ $("input[type='number']").keydown(function() {
 
 
 // Quantity
-
 function customQuantity() {
   /** Custom Input number increment js **/
   jQuery(
@@ -294,9 +285,47 @@ $('.input-number').change(function() {
 		alert('Sorry, the maximum value was reached');
 		$(this).val($(this).data('oldValue'));
 	}
-
-
 });
 
 
+// product category list slide down
+$(".catalog-top span, .quick-nav span").click(function() {
+  $(this).siblings("ul").stop(true).slideToggle();
+  $(this).toggleClass("default rotate");
+});
 
+
+// catalog menu
+/* Set the width of the side navigation to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.left = "0";
+  $(".dark-curtain").fadeIn();
+}
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.left = "-300px";
+	$(".dark-curtain").fadeOut();
+} 
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+    $(".sidenav").append($(".catalog-category, .quick-nav"));
+  } else {
+    $(".desk-cat").append($(".sidenav .catalog-category"));
+    $(".desk-cat").append($(".sidenav .quick-nav"));
+  }
+}
+var x = window.matchMedia("(max-width: 900px)")
+myFunction(x) 
+x.addListener(myFunction)
+
+// forms validation
+$("#btnSubmit").click(function(event) {
+// Fetch form to apply custom Bootstrap validation
+var form = $("#myForm")
+if (form[0].checkValidity() === false) {
+  event.preventDefault()
+  event.stopPropagation()
+}
+form.addClass('was-validated');
+// Perform ajax submit here...
+});
