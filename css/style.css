@@ -1519,12 +1519,10 @@ hr {
   .pre-footer .company-name {
     font-size: 1.5em;
     margin-bottom: 1.5rem; }
-  .pre-footer .footer-info {
-    margin-bottom: 40px; }
-    .pre-footer .footer-info p {
-      margin: 0 20px 1rem 0 !important;
-      font-size: .8em !important;
-      font-weight: 400; }
+  .pre-footer .footer-info p {
+    margin: 0 20px 1rem 0 !important;
+    font-size: .8em !important;
+    font-weight: 400; }
   .pre-footer .footer-logo {
     margin: 0;
     width: 100%;
@@ -3242,9 +3240,6 @@ form.filters {
   .category-nav-1 {
     width: 60% !important; }
 
-  .product-wrap .product-detail {
-    margin-top: 30px; }
-
   .product-additional {
     margin-top: 40px; }
 
@@ -3259,9 +3254,6 @@ form.filters {
 
   .r-tabs .r-tabs-panel {
     border-bottom: 1px solid #dfe2e5; }
-
-  .post-footer {
-    padding-bottom: calc(2rem + 52px); }
 
   .article-row {
     flex-direction: column-reverse; }
@@ -3514,6 +3506,10 @@ form.filters {
     #wizard1 ul[role='tablist'] .current a .title {
       display: inline-block !important; } }
 @media (max-width: 480px) {
+  .rd-navbar-fixed .rd-navbar-verbiage {
+    padding-top: 0;
+    text-align: left; }
+
   .product-additional .nav .nav-item .nav-link {
     padding: 15px;
     font-size: .7em !important; }
@@ -3529,7 +3525,7 @@ form.filters {
       width: 40px; }
 
   .input-group {
-    width: 60% !important; }
+    width: 40% !important; }
 
   .quantity-listing {
     width: 8em !important; }

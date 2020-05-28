@@ -1,0 +1,9 @@
+.payment-options {}
+.payment-options .payment-options-opt {position:relative;}
+.payment-options .payment-options-opt .form-check-input {left:55%;bottom:24px;}
+.payment-options .payment-options-opt .payment-options-img {height:8rem;}
+.payment-options .payment-options-opt p {padding-bottom:12px;}
+
+@media screen and (max-width:900px) {
+	.payment-options .payment-options-opt h6 {height:3em;}
+}
