@@ -516,7 +516,7 @@
       width: 40px; }
 
   .input-group {
-    width: 40% !important; }
+    width: 60% !important; }
 
   .quantity-listing {
     width: 8em !important; }
@@ -546,6 +546,9 @@
 
   .quantity-listing {
     width: 5.9em; }
+
+  .input-group {
+    width: 70% !important; }
 
   .listing-bottom {
     display: grid;

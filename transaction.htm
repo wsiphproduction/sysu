@@ -75,7 +75,7 @@
 				    <a href=""><i class="fa fa-user-plus"></i> <span>Register</span></a>
 				  </li>
 				  <li>
-					<a  href="#"><i class="fa fa-user"></i> <span>Log In</span></a>
+					<a  href="#"><i class="fa fa-sign-in-alt"></i> <span>Log In</span></a>
 				  </li>
 				</ul>
 			  </div>
@@ -150,7 +150,7 @@
 					  <a href=""><i class="fa fa-user-plus"></i> <span>Register</span></a>
 					</li>
 					<li>
-					  <a  href="#"><i class="fa fa-user"></i> <span>Log In</span></a>
+					  <a  href="#"><i class="fa fa-sign-in-alt"></i> <span>Log In</span></a>
 					</li>
 				  </ul>
 				</div>
@@ -291,6 +291,71 @@
 							</div>
       					</div>
        				</div>
+       				
+       				<!-- View Items Modal -->
+					<div class="modal fade" id="exampleModalCenter" tabindex="1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+						<div class="modal-content">
+						  <div class="modal-header">
+						  	<h3 class="modal-title catalog-title">1590741267528364</h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							  <span aria-hidden="true">&times;</span>
+							</button>
+						  </div>
+						  <div class="modal-body">
+							<div style="overflow-x:auto;">
+								<p>Date: 2020-05-29 16:34:27</p>
+								<p>Payment Status: <strong>PAID</strong></p>
+								<table class="table table-hover small text-center overflow-auto mt-3">
+								  <thead class="thead-dark">
+									<tr>
+									  <th scope="col" class="align-middle text-left">Product Code</th>
+									  <th scope="col" class="align-middle">Description</th>
+									  <th scope="col" class="align-middle">Qty</th>
+									  <th scope="col" class="align-middle">Price</th>
+									  <th scope="col" class="align-middle text-right">Total</th>
+									</tr>
+								  </thead>
+								  <tbody>
+									<tr>
+									  <td class="text-left">10</td>
+									  <td>San Remo Gluten Free Fettuccine</td>
+									  <td>6.00 PC</td>
+									  <td>180.24</td>
+									  <td class="text-right">1,081.44</td>
+									</tr>
+									<tr>
+									  <th scope="row" class="text-left">Sub total</th>
+									  <th scope="row"></th>
+									  <th scope="row">6.00</th>
+									  <th scope="row"></th>
+									  <th scope="row" class="text-right">1,081.44</th>
+									</tr>
+									<tr>
+									  <th scope="row" class="text-left">Delivery Fee</th>
+									  <th scope="row"></th>
+									  <th scope="row"></th>
+									  <th scope="row"></th>
+									  <th scope="row" class="text-right">0.00</th>
+									</tr>
+									<tr>
+									  <th scope="row" class="text-left">Grand total</th>
+									  <th scope="row"></th>
+									  <th scope="row"></th>
+									  <th scope="row"></th>
+									  <th scope="row" class="text-right">1,081.44</th>
+									</tr>
+								  </tbody>
+								</table>
+							</div>
+						  </div>
+						  <div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						  </div>
+						</div>
+					  </div>
+					</div>
+       				
         			<div class="col-lg-9">
         				<span onclick="openNav()" class="filter-btn d-block d-lg-none pb-3"><i class="fa fa-list"></i> Options</span>
         				<h3 class="catalog-title">Transaction History</h3>
@@ -320,64 +385,8 @@
 								  <td>Ready For delivery</td>
 								  <td>
 									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-credit-card pb-1"></i></a>
-									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-eye pb-1"></i></a>
+									<a href="#" class="btn btn-success btn-sm mb-1" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-eye pb-1"></i></a>
 									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-truck pb-1"></i></a>
-								  </td>
-								</tr>
-
-								<tr>
-								  <td>1590388631490659</td>
-								  <td>2020-05-25 14:37:11</td>
-								  <td>900.00</td>
-								  <td>900.00</td>
-								  <td>0.00</td>
-								  <td>Ready For delivery</td>
-								  <td>
-									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-credit-card"></i></a>
-									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-eye"></i></a>
-									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-truck"></i></a>
-								  </td>
-								</tr>
-
-								<tr>
-								  <td>1590388631490659</td>
-								  <td>2020-05-25 14:37:11</td>
-								  <td>900.00</td>
-								  <td>900.00</td>
-								  <td>0.00</td>
-								  <td>Ready For delivery</td>
-								  <td>
-									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-credit-card"></i></a>
-									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-eye"></i></a>
-									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-truck"></i></a>
-								  </td>
-								</tr>
-
-								<tr>
-								  <td>1590388631490659</td>
-								  <td>2020-05-25 14:37:11</td>
-								  <td>900.00</td>
-								  <td>900.00</td>
-								  <td>0.00</td>
-								  <td>Ready For delivery</td>
-								  <td>
-									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-credit-card"></i></a>
-									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-eye"></i></a>
-									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-truck"></i></a>
-								  </td>
-								</tr>
-
-								<tr>
-								  <td>1590388631490659</td>
-								  <td>2020-05-25 14:37:11</td>
-								  <td>900.00</td>
-								  <td>900.00</td>
-								  <td>0.00</td>
-								  <td>Ready For delivery</td>
-								  <td>
-									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-credit-card"></i></a>
-									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-eye"></i></a>
-									<a href="#" class="btn btn-success btn-sm mb-1"><i class="fa fa-truck"></i></a>
 								  </td>
 								</tr>
 							  </tbody>

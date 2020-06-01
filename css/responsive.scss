@@ -824,7 +824,7 @@
             }
         }
     }
-	.input-group {width:40% !important;}
+	.input-group {width:60% !important;}
 	.quantity-listing {width: 8em !important;}
 	.shopping-cart-quantity {width:12.5em;}
 }
@@ -862,6 +862,7 @@
 @media (max-width: 320px) {
 	.list-product .product-card .product-title {height:6.5em;}
 	.quantity-listing {width: 5.9em;}
+	.input-group {width:70% !important;}
 	.listing-bottom {display:grid;grid-template-columns:100%;
 		div:nth-child(2) {text-align:left;margin-top:6px;background:#28a745;color:white;}
 		div:nth-child(2) a {width:100%;position:relative;}
