@@ -2675,14 +2675,14 @@ form.filters {
   min-width: 50px;
   position: relative; }
 
-/*.input-group .form-control:hover, 
+.input-group .form-control:hover,
 .input-group .form-control:focus {
-    padding: 10px 20px;
-    width: 250px;
-    color: #000;
-    cursor: auto;
-    background-color: #fff;
-}*/
+  padding: 10px 20px;
+  width: 250px;
+  color: #000;
+  cursor: auto;
+  background-color: #fff; }
+
 .input-group .form-control::-moz-placeholder {
   color: transparent; }
 
