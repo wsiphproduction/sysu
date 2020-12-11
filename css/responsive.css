@@ -288,15 +288,16 @@
       display: none; }
 
   /*.cart-table-col {padding: .5rem;flex: 0 0 21% !important;max-width: 21% !important;border:thin solid black;}
-  .cart-table-col-2 {padding: .5rem;flex: 0 0 29% !important;max-width: 29% !important;border:thin solid #f00;}*/ }
+  .cart-table-col-2 {padding: .5rem;flex: 0 0 29% !important;max-width: 29% !important;border:thin solid #f00;}*/
+  .main-banner.sub-banner .banner-wrapper {
+    height: 12rem !important; }
+    .main-banner.sub-banner .banner-wrapper img {
+      height: 12rem; } }
 @media (max-width: 768px) {
   .banner-overlay {
     display: none !important; }
 
   .sub-banner-overlay {
-    display: none !important; }
-
-  .banner-caption {
     display: none !important; }
 
   .sub-banner-caption {
@@ -539,7 +540,15 @@
       width: 40px; }
 
   .banner-image {
-    height: 2em; } }
+    height: 2em; }
+
+  .banner-caption {
+    display: none !important; }
+
+  .main-banner.sub-banner .banner-wrapper {
+    height: 6rem !important; }
+    .main-banner.sub-banner .banner-wrapper img {
+      height: 6rem; } }
 @media (max-width: 320px) {
   .list-product .product-card .product-title {
     height: 6.5em; }

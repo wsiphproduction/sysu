@@ -329,3 +329,63 @@ if (form[0].checkValidity() === false) {
 form.addClass('was-validated');
 // Perform ajax submit here...
 });
+
+
+// side navigation
+$(document).ready(function(){
+	// padding top for banner
+	var head = $("header").height();
+	$(".main-banner, .sub-banner, .empty").css("padding-top",head);
+	
+	// quicklinks, side navigations
+	var arrow = '<span class="fa fa-chevron-down"></span>';
+	$(".quicklinks li").find("ul").parent("li").prepend(arrow);
+	$(".quicklinks .active").children("ul").css("display","block");
+	$(".quicklinks .active").children("span").addClass("up");
+	$(".quicklinks .active").click(function(){
+		$(this).children().removeClass("active")
+	})
+	
+	$(".quicklinks span").click(function(){
+		$(this).siblings("ul").stop(true).slideToggle();
+		$(this).parent("li").toggleClass("active");
+		$(this).parent().siblings().children("ul").slideUp(function(){
+			$(this).parent("li").removeClass();
+			$(this).siblings("span").removeClass("up down").addClass("down");
+		});
+		$(this).addClass("down").toggleClass("up down");
+	});
+});
+function openNav() {
+  document.getElementById("mySidenav").style.left = "0";
+  $(".dark-curtain").fadeIn();
+}
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+	$(".tablet-view").addClass("sidenav").attr("id","mySidenav");
+	$(".navi-head nav").toggleClass("main-menu resp-main-menu").attr("id","myMainNavi");
+	$(".head").toggleClass("top-head resp-top-head").attr("id","myTopHead").addClass("text-center");
+  } else {
+	$(".tablet-view").removeClass("sidenav").removeAttr("id");
+	$(".navi-head nav").removeAttr("id","mySidenav");
+	$(".head").removeAttr("id","myTopHead").removeClass("text-center");;
+  }
+}
+var x = window.matchMedia("(max-width: 900px)")
+myFunction(x) 
+x.addListener(myFunction)
+$(document).mouseup(function(e){
+	if ($(e.target).closest(".other-element ul").length === 0){
+		$(".other-element ul").removeClass("active");
+	}
+	/*if ($(e.target).closest(".navi-toggle").length === 0){
+		$(".resp-main-menu").removeClass("resp-main-menu-show");
+		$(".dark-curtain").fadeOut();
+		$(".z").removeClass("navi-toggle-close");
+	}*/
+	if ($(e.target).closest(".resp-top-head").length === 0){
+		$(".resp-top-head").css("right","-300px");
+		//$(".dark-curtain").fadeOut();
+	}
+});
+

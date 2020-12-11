@@ -80,6 +80,7 @@ $(document).ready(function() {
     });
   }
 
+	
   var latestSlick = "#slick-latest";
   $(latestSlick)
     .parent("div")
