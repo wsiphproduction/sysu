@@ -333,6 +333,28 @@ form.addClass('was-validated');
 
 // side navigation
 $(document).ready(function(){
+	/* Add Coupon */
+	var maxField_coupon = 10; //Input fields increment limitation
+    var addButton_coupon = $('.add_button_coupon'); //Add button selector
+    var wrapper_coupon = $('.field_wrapper_coupon'); //Input field wrapper
+    var fieldHTML_coupon = '<div class="form-group row"><div class="col-10"><input class="form-control" type="text" placeholder="Enter Coupon Code"></div><div class="col-2"><a href="javascript:void(0);" class="remove_button_coupon btn btn-danger" title="Add field"><i class="fa fa-minus"></i></a></div></div>'; //New input field html 
+    var x_coupon = 1; //Initial field counter is 1
+    //Once add button is clicked
+    $(addButton_coupon).click(function(){
+        //Check maximum number of input fields
+        if(x_coupon < maxField_coupon){ 
+            x_coupon++; //Increment field counter
+            $(wrapper_coupon).append(fieldHTML_coupon); //Add field html
+        }
+    });
+    //Once remove button is clicked
+    $(wrapper_coupon).on('click', '.remove_button_coupon', function(e){
+        e.preventDefault();
+        $(this).parent('div').parent('div').remove(); //Remove field html
+        x_coupon--; //Decrement field counter
+    });
+	
+	
 	// padding top for banner
 	var head = $("header").height();
 	$(".main-banner, .sub-banner, .empty").css("padding-top",head);

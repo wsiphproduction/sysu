@@ -1993,6 +1993,7 @@ form.filters {
     transition: opacity 0.3s ease 0s; }
 
 .product-card {
+  height: 26rem;
   transition: all 0.1s ease-in-out; }
   .product-card:hover {
     border-color: #F14537; }
@@ -2186,7 +2187,7 @@ form.filters {
   .list-product .product-card .product-price,
   .product-related .product-card .product-price {
     font-family: "Lato", sans-serif;
-    font-size: .9em;
+    font-size: 1em;
     color: #333333;
     font-weight: 700;
     margin: 0;
@@ -2204,7 +2205,14 @@ form.filters {
     transition: inherit;
     margin: 0;
     padding: 0;
-    line-height: 20px; }
+    line-height: 20px;
+    height: 65px;
+    white-space: pre-wrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden; }
     .list-product .product-card .product-title:hover,
     .product-related .product-card .product-title:hover {
       color: #F14537; }

@@ -2677,7 +2677,7 @@ form.filters {
 
 // PRODUCT CATALOG
 
-.product-card {
+.product-card {height:26rem;
     //margin-bottom: 30px;
     transition: all 0.1s ease-in-out;
 
@@ -2955,7 +2955,7 @@ form.filters {
 
         .product-price {
             font-family: $font1;
-            font-size: .9em;
+            font-size: 1em;
             color: $second-color;
             font-weight: 700;
             margin: 0;
@@ -2973,6 +2973,13 @@ form.filters {
             margin: 0;
             padding: 0;
 			line-height:20px;
+			height:65px;
+			white-space: pre-wrap;
+			display: -webkit-box;
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;
+			text-overflow: ellipsis;
+			overflow: hidden;
 
             &:hover {
                 color: $first-color;
