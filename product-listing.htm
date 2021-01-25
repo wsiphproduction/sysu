@@ -21,7 +21,7 @@
     <!-- InstanceEndEditable -->
   <link rel="shortcut icon" href="images/misc/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="plugins/fontawesome/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.css" />
     <link rel="stylesheet" href="plugins/linearicon/linearicon.min.css" />
     <link rel="stylesheet" href="plugins/slick/slick.css" />
     <link rel="stylesheet" href="plugins/slick/slick-theme.css">
@@ -585,26 +585,29 @@
 	<!-- nagdagdagan ng col-6--><div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
+                          <label class="add-wishlist-btn" for="wishlist1" data-toggle="tooltip" data-placement="left" title="Add to Favorites">
+                            <input type="checkbox" id="wishlist1" class="wishlist1" name="wishlist1">
+                            <span>
+                              <i class="far fa-heart unchecked"></i>
+                              <i class="fas fa-heart checked"></i>
+                            </span>
+                          </label>  
                           <a href="product-profile.htm">
                             <div class="product-img">
                               <img src="images/misc/no-image.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title px-3">Class aptent taciti sociosqu ad litora torquent per conubia</p>
+                            <p class="product-title px-3" title="Class aptent taciti sociosqu ad litora torquent per conubia litora torquent per conubia">Class aptent taciti sociosqu ad litora torquent per conubia litora torquent per conubia</p>
                           </a>
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
-	<!-- binago ko yung col-10 to col-12-->
-	<!-- from col-10 to col-12 at kinulong ko yung price sa span tag--><div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
-	<!-- binura ko yung hyperlink tag dito-->
+								<div class="col-12"><h3 class="product-price"><span>₱ 500.00</span> | pc</h3></div>
+                         		<span class="text-muted small mr-2 h6"><del>₱600.00</del></span>
+								<span class="card-discount-percent small h6">-47%</span>
                           	</div>
                           </div>
-  	<!-- start @judrie - dinagdag ko itong part-->
-    <!--naglagay ako ng class "listing-bottom"--><div class="listing-bottom row no-gutters px-3 pb-3">
-  	<!--tinangal ko na yung class--><div>
+  						  <div class="listing-bottom row no-gutters px-3 pb-3">
+  							<div>
 								<div class="shopping-cart-quantity quantity-listing">
 								<div class="input-group">
 								  <span class="input-group-btn">
@@ -621,8 +624,8 @@
 								</div>
 								</div>
 							  </div>
-  	<!--tinangal ko na yung class at pinalitan ng bago--><div class="rounded">
-	<!-- yung "fa-plus" pinalitan ko ng "fa-cart-plus"--><a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
+							  <div class="rounded">
+								<a href="#"><i class="fa fa-cart-plus bg-success text-light p-1 rounded"></i></a>
 							  </div>
                           </div>
 	<!--end-->
@@ -632,15 +635,19 @@
                     <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
-                          <button class="add-to-cart-btn" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-                            <span class="lnr lnr-heart"></span>
-                          </button>
-                          <a href="product-profile.htm">
+                          <label class="add-wishlist-btn" for="wishlist2" data-toggle="tooltip" data-placement="left" title="Add to Favorites">
+                            <input type="checkbox" id="wishlist2" class="wishlist2" name="wishlist2">
+                            <span>
+                              <i class="far fa-heart unchecked"></i>
+                              <i class="fas fa-heart checked"></i>
+                            </span>
+                          </label>
+                          <a href="product-profile.htm"
                             <div class="product-img">
                               <img src="images/products/earl-grey.jpg" alt="" />
                             </div>
                             <div class="gap-20"></div>
-                            <p class="product-title px-3">Class aptent taciti sociosqu ad litora torquent per conubia</p>
+                            <p class="product-title px-3" title="Class aptent taciti sociosqu ad litora torquent per conubia">Class aptent taciti sociosqu ad litora torquent per conubia</p>
                           </a>
                           <div class="info position-relative">
                           	<div class="row no-gutters px-3 pb-3">
@@ -649,12 +656,13 @@
                           </div>
                           <div class="listing-bottom row no-gutters px-3 pb-3">
 							  <div>
-								<button type="button" class="btn btn-sm btn-secondary out-stock" disabled>Out of Stock</button>
+								<button type="button" class="btn btn-sm btn-info out-stock">Add to Wishlist</button>
 							  </div>
                           </div>
                         </div>
                       </div>
                     </div>
+                    <!--
                     <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
@@ -723,8 +731,7 @@
                           </div>
                         </div>
                       </div>
-                    </div>
-                    
+                    </div>                    
                     <div class="col-lg-3 col-md-4 col-6 item">
                       <div class="product-link border">
                         <div class="product-card">
@@ -1001,6 +1008,7 @@
                         </div>
                       </div>
                     </div>
+                    -->
                   </div>
                 </div>
       
@@ -1134,7 +1142,7 @@
 		var bannerCaptionFxIn = "fadeInUp";
 		var autoPlayTimeout = "4000";
 		var bannerID = "banner";
-	</script>
+  </script>
 	
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/script.js"></script>
@@ -1146,5 +1154,12 @@
   <script src="plugins/slick/slick.extension.js"></script>
   <script src="plugins/aos/dist/aos.js"></script>
   <script src="plugins/ion.rangeslider/js/ion.rangeSlider.js"></script>
+
+  <script>
+    $(".preferences").on("click", function() {
+      $('[data-toggle="tooltip"]').tooltip("hide");
+      console.log("gumana");
+    });
+  </script>
 </body>
 <!-- InstanceEnd --></html>
