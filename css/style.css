@@ -3306,8 +3306,35 @@ form.filters option {
   display: -ms-flexbox;
   display: flex;
   color: #F14537;
-  font-size: 1.45em;
+  font-size: 1em;
   font-weight: 800;
+}
+
+.product-wrap .product-detail .product-price .price-after {
+  position: relative;
+  color: #F14537;
+  font-size: 1.8em;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.product-wrap .product-detail .product-price .price-before {
+  margin-top: 3px;
+  margin-left: 10px;
+  font-size: 0.75em;
+}
+
+.product-wrap .product-detail .product-price .price-before .price-original {
+  text-decoration: line-through;
+  color: #9a9a9a;
+}
+
+.product-wrap .product-detail .product-price .price-before .price-less {
+  color: #333333;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none !important;
 }
 
 .product-wrap .product-detail .product-main {
