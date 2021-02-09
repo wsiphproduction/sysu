@@ -9,6 +9,11 @@ $(window).on("load", function () {
   }, 100);
 });
 
+$('#coupon-optn').change(function(){
+	$('.coupon-option').hide();
+	$('#' + $(this).val()).show();
+});
+
 // @description FadeOut to Next Page
 /*$(document).ready(function() {
   $(document).on("click", "a", function(e) {
