@@ -342,7 +342,7 @@ $(document).ready(function(){
 	var maxField_coupon = 10; //Input fields increment limitation
     var addButton_coupon = $('.add_button_coupon'); //Add button selector
     var wrapper_coupon = $('.field_wrapper_coupon'); //Input field wrapper
-    var fieldHTML_coupon = '<div class="form-group row"><div class="col-10"><input class="form-control" type="text" placeholder="Enter Coupon Code"></div><div class="col-2"><a href="javascript:void(0);" class="remove_button_coupon btn btn-danger" title="Add field"><i class="fa fa-minus"></i></a></div></div>'; //New input field html 
+    var fieldHTML_coupon = '<div class="form-group row mb-2"><div class="col-10"><input class="form-control" type="text" placeholder="Enter Coupon Code"></div><div class="col-2"><a href="javascript:void(0);" class="remove_button_coupon btn btn-danger" title="Add field"><i class="fa fa-minus"></i></a></div></div>'; //New input field html 
     var x_coupon = 1; //Initial field counter is 1
     //Once add button is clicked
     $(addButton_coupon).click(function(){

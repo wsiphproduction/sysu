@@ -263,247 +263,108 @@
     <!-- Page Content -->
       <!-- InstanceBeginEditable name="EditRegion1" -->
       <main>
-      
+        
         <section class="py-5">
         	<div class="container">
         		<div class="row">
-        			<div class="col-lg-8 pb-5">
-        				<h3 class="catalog-title">Product Categories</h3>
-        				
+        			<span onclick="closeNav()" class="dark-curtain"></span>	
+					<span onclick="openNav()" class="mb-4 btn btn-primary btn-bg open-nav rounded-0 d-block d-lg-none"><i class="fa fa-1x fa-th-list"></i></span>
+
+					<div class="col-md-3">
+						<div class="tablet-view">
+							<a href="javascript:void(0)" class="closebtn d-block d-lg-none mt-5" onclick="closeNav()">&times;</a>
+							<h3>My Account</h3>
+							<ul class="quicklinks ul-none no-padding mb-3">
+								<li><a href="personal-information.htm">Manage Account</a>
+									<ul class="ul-none">
+										<li><a href="personal-information.htm">Personal Information</a></li>
+										<li><a href="contact-information.htm">Contact Information</a></li>
+										<li><a href="delivery-address.htm">Delivery Address</a></li>
+									</ul>
+								</li>
+								<li><a href="favorites.htm">Favorites</a></li>
+								<li><a href="wishlist.htm">Wishlist</a></li>
+								<li><a href="change-password.htm">Change Password</a></li>
+								<li><a href="transaction.htm">My Orders</a></li>
+								<li class="active"><a href="coupons.htm">My Coupons</a>
+									<ul class="ul-none">
+										<li><a href="coupons.htm">Available Coupons</a></li>
+										<li><a href="expired-coupons.htm">Expired Coupons</a></li>
+										<li class="active"><a href="claimed-coupons.htm">Claimed Coupons</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+       				
+        			<div class="col-lg-9">
+        				<h3 class="catalog-title">Available Coupons</h3>
         				<div class="alert alert-primary" role="alert">
-						  Your shopping cart is <strong>empty</strong>.
+						  Your coupon is <strong>empty</strong>.
 						</div>
-      					
-      					<div class="cart-table mb-3">
-      						<div class="cart-table-item">
-      							<div class="cart-table-remove">
-									<a href="#" class="btn btn-primary btn-sm btn-warning">Remove Item</a>
-								</div>
-     							
-      							<div class="row no-gutters">
-      								<div class="col-lg-4 col-md-5 col-3 p-3">
-      									<a href="#" class="prod-avatar"><img src="images/products/asian.jpg" /></a>
-      								</div>
-      								<div class="col-lg-6 col-md-7 col-9 p-3">
-      									<div class="cart-table-content">
-      										<a href="#" class="prod-name">CBTL FL TEA CHAMOMILE 48x18x2g/CS</a>
-      										<nav aria-label="breadcrumb">
-											  <ol class="breadcrumb small m-0">
-												<li class="breadcrumb-item"><a href="#">Baking</a></li>
-												<li class="breadcrumb-item active" aria-current="page">Chocolate Compound</li>
-											  </ol>
-											</nav>
-      										<div class="prod-qty">
-      											<small>Quantity</small>
-												<div class="input-group">
-												  <span class="input-group-btn">
-													<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[0]">
-													  <span class="fa fa-minus"></span>
-													</button>
-												  </span>
-												  <input type="text" name="quant[0]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
-												  <span class="input-group-btn">
-													<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[0]">
-													  <span class="fa fa-plus"></span>
-													</button>
-												  </span>
-												</div>
-											</div>
-    										<small>Total</small>
-     										<div class="prod-total"><strong>₱ 31.00</strong></div>
-      									</div>
-      								</div>
-      							</div>
-      						</div>
-      					</div>
-      					
-      					<div class="cart-table mb-3">
-      						<div class="cart-table-item">
-      							<div class="cart-table-remove">
-									<a href="#" class="btn btn-primary btn-sm btn-warning">Remove Item</a>
-								</div>
-     							
-      							<div class="row no-gutters">
-      								<div class="col-lg-4 col-md-5 col-3 p-3">
-      									<a href="#" class="prod-avatar"><img src="images/products/asian.jpg" /></a>
-      								</div>
-      								<div class="col-lg-6 col-md-7 col-9 p-3">
-      									<div class="cart-table-content">
-      										<a href="#" class="prod-name">CBTL FL TEA CHAMOMILE 48x18x2g/CS</a>
-      										<nav aria-label="breadcrumb">
-											  <ol class="breadcrumb small m-0">
-												<li class="breadcrumb-item"><a href="#">Baking</a></li>
-												<li class="breadcrumb-item active" aria-current="page">Chocolate Compound</li>
-											  </ol>
-											</nav>
-      										<div class="prod-qty">
-      											<small>Quantity</small>
-												<div class="input-group">
-												  <span class="input-group-btn">
-													<button type="button" class="btn btn-default btn-number minus-btn" disabled="disabled" data-type="minus" data-field="quant[0]">
-													  <span class="fa fa-minus"></span>
-													</button>
-												  </span>
-												  <input type="text" name="quant[0]" class="form-control input-number quantity-fld" value="1" min="1" max="100">
-												  <span class="input-group-btn">
-													<button type="button" class="btn btn-default btn-number plus-btn" data-type="plus" data-field="quant[0]">
-													  <span class="fa fa-plus"></span>
-													</button>
-												  </span>
-												</div>
-											</div>
-    										<small>Total</small>
-     										<div class="prod-total"><strong>₱ 31.00</strong></div>
-      									</div>
-      								</div>
-      							</div>
-      						</div>
-      					</div>
-        			</div>
-
-					<div class="col-lg-4">
-						<div class="coupon mb-2">
-							<h3 class="catalog-title">Coupon</h3>
-						
-							<div class="cart-table-2 pt-3">
-								<div class="cart-table-row px-3">
-									<form style="width:100%;">
-										<div class="form-group row mb-2">
-											<div class="col-md-10">
-												<input class="form-control" type="text" placeholder="Enter Coupon Code">
-											</div>
-										</div>
-										<div class="field_wrapper_coupon"></div>
-										<a href="#" class="small mb-2" data-toggle="modal" data-target="#exampleModalCenter"> or click here to  Select from My Coupons</a>
-									</form>
-								</div>
-								<div class="cart-table-row">
-									<div class="cart-table-1-col">
-										<p class="small font-italic pb-3">Coupon(s) will apply upon checkout</p>
-										<a href="javascript:void(0);" class="btn btn-success btn-block add_button_coupon"><i class="fa fa-plus"></i> Add more coupon</a>
-									</div>
-								</div>
-							</div>
+       				
+        				<div class="table-history" style="overflow-x:auto;">
+							<table class="table table-hover small text-left overflow-auto">
+							  <thead class="thead-dark">
+								<tr>
+							  	  <th scope="col" class="align-middle text-nowrap" width="27%">Coupon</th>
+							  	  <th scope="col" class="align-middle text-nowrap">Description</th>
+								  <th scope="col" class="align-middle text-nowrap">Terms and Conditions</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+							   	  <td class="align-middle">
+									<p><span class="h5"><strong>PICKUPGG</strong></span></p>
+								  </td>
+								  <td class="align-middle">Maecenas egestas mollis eros, et hendrerit justo aliquam non. Aliquam in accumsan nibh</td>
+								  <td class="align-middle text-right"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">View Details</a></td>
+								</tr>
+								<tr>
+							   	  <td class="align-middle">
+									<p><span class="h5"><strong>PICKUP123</strong></span></p>
+								  </td>
+								  <td class="align-middle">Maecenas egestas mollis eros, et hendrerit justo aliquam non. Aliquam in accumsan nibh</td>
+								  <td class="align-middle text-right"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">View Details</a></td>
+								</tr>
+								<tr>
+							   	  <td class="align-middle">
+									<p><span class="h5"><strong>PICKUP00</strong></span></p>
+								  </td>
+								  <td class="align-middle">Maecenas egestas mollis eros, et hendrerit justo aliquam non. Aliquam in accumsan nibh</td>
+								  <td class="align-middle text-right"><a href="#" data-toggle="modal" data-target="#exampleModalCenter">View Details</a></td>
+								</tr>
+							  </tbody>
+							</table>
 						</div>
 						
-						<div class="cart-table-2 coupons-list mb-5 border rounded">
-							<div class="p-3 border-bottom">
-								<p class="float-right"><a href="#"><i class="fa fa-times"></i></a></p>
-								<p><span class="h5 float-left"><strong>PICKUPGG</strong></span></p>
-								<div class="clearfix"></div>
-								<p>Maecenas egestas mollis eros, et hendrerit justo aliquam non. Aliquam in accumsan nibh</p>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLongTitle">Terms and Conditions</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								  <span aria-hidden="true">&times;</span>
+								</button>
+							  </div>
+							  <div class="modal-body">
+								<p>Nulla sit amet sem eget diam finibus dictum fringilla vitae dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus leo ipsum, vestibulum at sagittis viverra, aliquet a augue. Integer ullamcorper risus mauris, consectetur fermentum purus blandit sed. Aliquam in sem eu ipsum aliquet ullamcorper consectetur consectetur quam. Sed quis semper massa. Donec at nibh sed est vehicula hendrerit. Ut diam erat, fringilla et volutpat et, laoreet sit amet nisl. Maecenas a justo finibus, egestas dui ut, pellentesque elit. Nulla facilisi. Phasellus feugiat sapien non massa fermentum, a rutrum ante elementum. Nunc id convallis nibh.</p>
+								  <p>&nbsp;</p>
+								<p>Maecenas eget dignissim turpis. Vestibulum consequat cursus nibh. Cras mattis eros vitae leo vulputate, eget volutpat ex molestie. Pellentesque pharetra nec tortor vel sodales. Vivamus porta erat non nulla auctor, sed scelerisque ligula mattis. Aliquam commodo urna augue, sed aliquet libero ultrices ut. Phasellus commodo gravida ornare. Nunc vel malesuada tortor. </p>
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							  </div>
 							</div>
-							<div class="p-3 border-bottom">
-								<p class="float-right"><a href="#"><i class="fa fa-times"></i></a></p>
-								<p><span class="h5 float-left"><strong>PICKUP123</strong></span></p>
-								<div class="clearfix"></div>
-								<p>Maecenas egestas mollis eros, et hendrerit justo aliquam non. Aliquam in accumsan nibh</p>
-							</div>
-						</div>
-											
-						<div class="mb-5">
-							<h3 class="catalog-title">Shopping Cart Total</h3>
-
-							<div class="cart-table-2">
-								<div class="cart-table-row">
-									<div class="cart-table-2-col">
-										<div class="cart-table-2-title">Subtotal</div>									
-									</div>
-									<div class="cart-table-2-col">
-										<div class="cart-table-2-title text-right">₱ 606.08</div>									
-									</div>
-								</div>
-								<div class="cart-table-row">
-									<div class="cart-table-2-col">
-										<div class="cart-table-2-title"><strong>Grand Total</strong></div>
-									</div>
-									<div class="cart-table-2-col">
-										<div class="cart-table-2-title text-right"><strong>₱ 606.08</strong></div>
-									</div>
-								</div>
-								<div class="cart-table-row">
-									<div class="cart-table-1-col">
-										<p class="small font-italic pb-3">Shipping fees will apply upon checkout</p>
-										<a href="#" class="btn btn-primary btn-block"><i class="fa fa-check"></i> Proceed to Checkout</a>
-									</div>
-								</div>
-							</div>
+						  </div>
 						</div>
 					</div>
-       		
-       				<!-- Modal -->
-					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-					  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-						<div class="modal-content">
-						  <div class="modal-header">
-							<h5 class="modal-title" id="exampleModalLongTitle">Your Available Coupons</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							  <span aria-hidden="true">&times;</span>
-							</button>
-						  </div>
-						  <div class="modal-body">
-						  	
-						  	<div class="table-history" style="overflow-x:auto;">
-								<table class="table table-hover small text-left overflow-auto">
-								  <thead class="thead-dark">
-									<tr>
-									  <th scope="col" class="align-middle text-nowrap" width="10%">
-									  	<div class="form-check">
-											<input type="checkbox" id="exampleCheck1">
-										</div>
-									  </th>
-									  <th scope="col" class="align-middle text-nowrap text-center">Promo Code</th>
-									  <th scope="col" class="align-middle text-nowrap text-center" width="50%">Deal</th>
-									</tr>
-								  </thead>
-								  <tbody>
-									<tr>
-								  	  <td class="align-middle">
-								  	  	<div class="form-check">
-											<input type="checkbox" id="exampleCheck1">
-										</div>  
-								  	  </td>
-								  	  <td class="align-middle text-center">
-								  	  	<strong>SMPICKUP</strong>
-								  	  </td>
-									  <td class="align-middle" width="30%">
-										<p class="text-center"><strong>P100 off</strong> </p>
-										<p class="text-center">minimum spend P399 valid for pick-up from select foodpanda restaurants in SM Malls in Luzon
-										</p>
-									  </td>
-									</tr>
-									<tr>
-								  	  <td class="align-middle">
-								  	  	<div class="form-check">
-											<input type="checkbox" id="exampleCheck1">
-										</div>  
-								  	  </td>
-								  	  <td class="align-middle text-center">
-								  	  	<strong>COUPON</strong>
-								  	  </td>
-									  <td class="align-middle" width="30%">
-										<p class="text-center"><strong>P100 off</strong> </p>
-										<p class="text-center">minimum spend P399 valid for pick-up from select foodpanda restaurants in SM Malls in Luzon
-										</p>
-									  </td>
-									</tr>
-								  </tbody>
-								</table>
-							</div>
-						  	
-						  </div>
-						  <div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-							<button type="button" class="btn btn-primary">Apply</button>
-						  </div>
-						</div>
-					  </div>
-					</div>
-       		
         		</div>
         	</div>
         </section>
-            
+        
       </main>
       <!-- InstanceEndEditable -->
     <!-- END Page Content -->
