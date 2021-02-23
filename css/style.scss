@@ -3372,12 +3372,12 @@ form.filters {
 
 	&-inner {
 		padding: 10px;
-		background-color: $first-color;
+		background-color: black;
 	}
 
 	.arrow:before {
-		border-left-color: $first-color;
-		border-right-color: $first-color;
+		border-left-color: white;
+		border-right-color: white;
 	}
 }
 
@@ -4688,6 +4688,15 @@ form.filters {
 	color: #ddd;
 	line-height: 1.35;
 	letter-spacing: 4px;
+}
+
+.coupon-item:hover {background:whitesmoke;}
+.coupon-item.selected {background:#d1ecf1 !important;
+	.coupon-item-valid span {border-color:white !important;}
+}
+.coupon-item.disabled {background:gainsboro;
+	.coupon-item-valid span {border-color:white !important}
+	h5 {color:#6c757d !important;text-decoration:line-through !important;}
 }
 
 @import "responsive";

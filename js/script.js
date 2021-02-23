@@ -416,3 +416,10 @@ $(document).mouseup(function(e){
 	}
 });
 
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+
+
