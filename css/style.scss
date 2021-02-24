@@ -4690,13 +4690,24 @@ form.filters {
 	letter-spacing: 4px;
 }
 
-.coupon-item:hover {background:whitesmoke;}
+.coupon-item {border-left:12px solid #F14537 !important;padding-left:12px !important;
+	h5 {
+		span {font-size:12px;color:gray;font-family: "Lato", sans-serif;}
+	}
+	.coupon-item-btns button {}
+}
+.coupon-item.deactivate {border-left:12px solid gray !important;
+	h5 {color:gray !important;}
+	button:first-child {background:gray !important;border-color:gray !important;}
+}
+
+/*.coupon-item:hover {background:whitesmoke;}
 .coupon-item.selected {background:#d1ecf1 !important;
 	.coupon-item-valid span {border-color:white !important;}
 }
 .coupon-item.disabled {background:gainsboro;
 	.coupon-item-valid span {border-color:white !important}
 	h5 {color:#6c757d !important;text-decoration:line-through !important;}
-}
+}*/
 
 @import "responsive";
