@@ -71,7 +71,7 @@ input::-webkit-outer-spin-button,
     -moz-appearance: textfield;
 }*/
 h2 {
-  font-family: "Canela", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 3em;
   font-weight: 700;
   color: #F14537;
@@ -79,28 +79,28 @@ h2 {
   text-align: center; }
 
 h3 {
-  font-family: "Canela", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 1.45em;
   font-weight: 700;
   color: #F14537;
   line-height: 1.5; }
 
 h4 {
-  font-family: "Canela", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 1.3em;
   font-weight: 700;
   color: #F14537;
   line-height: 1.5; }
 
 h5 {
-  font-family: "Canela", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 1.05em;
   font-weight: 700;
   color: #F14537;
   line-height: 1.5; }
 
 h6 {
-  font-family: "Canela", sans-serif;
+  font-family: "Lato", sans-serif;
   color: #333333;
   font-weight: 400;
   font-size: 0.75em;
@@ -220,7 +220,7 @@ p {
   flex-direction: row;
   padding: 0 70px; }
   .banner-caption h2 {
-    font-family: "Canela", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 800 !important;
     font-size: 4em;
     line-height: 1.2;
@@ -261,7 +261,7 @@ p {
   flex-direction: row;
   padding: 0 25px; }
   .sub-banner-caption h2 {
-    font-family: "Canela", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 800 !important;
     font-size: 2.35em;
     line-height: 1.2;
@@ -757,7 +757,7 @@ p {
       height: 60px;
       margin: 0; }
   .service-card .service-title {
-    font-family: "Canela", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 1em; }
   .service-card p {
@@ -1135,7 +1135,7 @@ hr {
     .news-layout .item-content .primary-btn {
       font-size: 0.65em; }
   .news-layout .news-title {
-    font-family: "Canela", sans-serif;
+    font-family: "Lato", sans-serif;
     color: #020202;
     font-weight: 600;
     font-size: 1em;
@@ -1549,7 +1549,7 @@ hr {
   .pre-footer .footer-title {
     color: white;
     position: relative;
-    font-family: "Canela", sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 1em;
     letter-spacing: 0px;
     margin-bottom: 1.5em; }
@@ -2027,7 +2027,7 @@ form.filters {
   .product-card .product-description {
     padding: 30px 30px 40px 30px; }
     .product-card .product-description .product-link {
-      font: 500 20px "Canela", sans-serif;
+      font: 500 20px "Lato", sans-serif;
       color: #020202; }
       .product-card .product-description .product-link:hover {
         color: #F14537; }
@@ -3443,7 +3443,7 @@ form.filters {
       display: block !important; }
 
 .error404 {
-  font-family: "Canela", sans-serif;
+  font-family: "Lato", sans-serif;
   display: block;
   font-size: 216px;
   font-weight: 700;
@@ -3466,6 +3466,25 @@ form.filters {
   .coupon-item.deactivate button:first-child {
     background: gray !important;
     border-color: gray !important; }
+
+.bg-intro {
+  position: relative; }
+  .bg-intro:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0; }
+  .bg-intro p, .bg-intro h4 {
+    color: white; }
+
+.latest-news-item .card-image {
+  position: relative; }
+  .latest-news-item .card-image .card-title {
+    position: absolute;
+    bottom: 0;
+    line-height: 21px; }
 
 /*.coupon-item:hover {background:whitesmoke;}
 .coupon-item.selected {background:#d1ecf1 !important;
@@ -3745,7 +3764,7 @@ form.filters {
   #cart-wrapper .container > .row > div:last-child {
     margin-top: 60px; }
 
-  .banner-image {
+  .sub-banner .banner-image {
     height: 4.3em; }
 
   .e-options {
@@ -4008,7 +4027,8 @@ form.filters {
     width: 8em !important; }
 
   .shopping-cart-quantity {
-    width: 12.5em; } }
+    width: 12.5em; } 
+  .banner-text {display:none !important;}}
 @media (max-width: 400px) {
   .list-product .product-card .product-title {
     height: 5em; }
@@ -4024,7 +4044,7 @@ form.filters {
     .product-wrap .product-detail .product-btn .product-wishlist svg {
       width: 40px; }
 
-  .banner-image {
+  .sub-banner .banner-image {
     height: 2em; }
 
   .banner-caption {

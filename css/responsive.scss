@@ -418,7 +418,7 @@
 	#cart-wrapper .container > .row > div:last-child {
 		margin-top: 60px;
 	}
-	.banner-image {
+	.sub-banner .banner-image {
 		height: 4.3em;
 	}
 	.e-options {
@@ -868,6 +868,7 @@
 	.shopping-cart-quantity {
 		width: 12.5em;
 	}
+	.banner-text {display:none !important;}
 }
 
 @media (max-width: 400px) {
@@ -898,7 +899,7 @@
 			}
 		}
 	}
-	.banner-image {
+	.sub-banner .banner-image {
 		height: 2em;
 	}
 	.banner-caption {
