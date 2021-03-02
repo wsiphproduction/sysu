@@ -21,7 +21,7 @@
     <!-- InstanceEndEditable -->
   <link rel="shortcut icon" href="images/misc/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="plugins/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="plugins/fontawesome/css/fontawesome-all.min.css" />
     <link rel="stylesheet" href="plugins/linearicon/linearicon.min.css" />
     <link rel="stylesheet" href="plugins/slick/slick.css" />
     <link rel="stylesheet" href="plugins/slick/slick-theme.css">
@@ -166,13 +166,13 @@
                     <!-- RD Navbar Nav -->
                     <ul class="rd-navbar-nav">
                       <li class="active">
-                        <a href="product-listing.htm">Home</a>
+                        <a href="product-listing.htm" class="btn">Home</a>
                       </li>
                       <li>
-                        <a href="news.htm">Blogs</a>
+                        <a href="news.htm" class="btn">Blogs</a>
                       </li>
                       <li>
-                        <a href="about.htm">About SYSU</a>
+                        <a href="about.htm" class="btn">About SYSU</a>
                         <ul class="rd-navbar-dropdown">
                           <li>
                             <a href="">Lorem ipsum dolor</a>
@@ -229,10 +229,10 @@
                         </ul>
                       </li>
                       <li>
-                        <a href="product-listing.htm">Shop</a>
+                        <a href="contact.htm" class="btn">Contact Us</a>
                       </li>
-                      <li>
-                        <a href="contact.htm">Contact Us</a>
+					  <li>
+                        <a href="product-listing.htm" class="btn btn-danger text-light btn-shop"><strong>Shop</strong></a>
                       </li>
                     </ul>
                     <!-- END RD Navbar Nav -->
@@ -524,24 +524,16 @@
 		var bannerCaptionFxIn = "fadeInUp";
 		var autoPlayTimeout = "4000";
 		var bannerID = "banner";
-  </script>
+	</script>
 	
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/script.js"></script>
   <script src="plugins/materialize/js/materialize.js"></script>
-  <script src="plugins/bootstrap/js/popper.js"></script>
-  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="plugins/rd-navbar/dist/js/jquery.rd-navbar.js"></script>
   <script src="plugins/slick/slick.js"></script>
   <script src="plugins/slick/slick.extension.js"></script>
   <script src="plugins/aos/dist/aos.js"></script>
   <script src="plugins/ion.rangeslider/js/ion.rangeSlider.js"></script>
-
-  <script>
-    $(".preferences").on("click", function() {
-      $('[data-toggle="tooltip"]').tooltip("hide");
-      console.log("gumana");
-    });
-  </script>
 </body>
 <!-- InstanceEnd --></html>

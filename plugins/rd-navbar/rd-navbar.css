@@ -3624,6 +3624,7 @@ h3+.card-custom-group-wrap {
   z-index: 2;
   will-change: transform;
   -webkit-filter: blur(0);
+  margin-top: 7px;
 }
 
 .rd-navbar-static .rd-navbar-nav>li.focus>.rd-navbar-submenu-toggle::after,

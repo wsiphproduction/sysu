@@ -3486,6 +3486,9 @@ form.filters {
     bottom: 0;
     line-height: 21px; }
 
+.btn-shop {
+  font-size: 17px !important; }
+
 /*.coupon-item:hover {background:whitesmoke;}
 .coupon-item.selected {background:#d1ecf1 !important;
 	.coupon-item-valid span {border-color:white !important;}
@@ -4027,8 +4030,10 @@ form.filters {
     width: 8em !important; }
 
   .shopping-cart-quantity {
-    width: 12.5em; } 
-  .banner-text {display:none !important;}}
+    width: 12.5em; }
+
+  .banner-text {
+    display: none !important; } }
 @media (max-width: 400px) {
   .list-product .product-card .product-title {
     height: 5em; }
