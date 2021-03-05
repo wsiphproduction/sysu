@@ -365,7 +365,7 @@ $(document).ready(function(){
 	$(".main-banner, .sub-banner, .empty").css("padding-top",head);
 	
 	// quicklinks, side navigations
-	var arrow = '<span class="fa fa-chevron-down"></span>';
+	/*var arrow = '<span class="fa fa-chevron-down"></span>';
 	$(".quicklinks li").find("ul").parent("li").prepend(arrow);
 	$(".quicklinks .active").children("ul").css("display","block");
 	$(".quicklinks .active").children("span").addClass("up");
@@ -381,9 +381,9 @@ $(document).ready(function(){
 			$(this).siblings("span").removeClass("up down").addClass("down");
 		});
 		$(this).addClass("down").toggleClass("up down");
-	});
+	});*/
 });
-function openNav() {
+/*function openNav() {
   document.getElementById("mySidenav").style.left = "0";
   $(".dark-curtain").fadeIn();
 }
@@ -397,7 +397,7 @@ function myFunction(x) {
 	$(".navi-head nav").removeAttr("id","mySidenav");
 	$(".head").removeAttr("id","myTopHead").removeClass("text-center");;
   }
-}
+}*/
 var x = window.matchMedia("(max-width: 900px)")
 myFunction(x) 
 x.addListener(myFunction)
