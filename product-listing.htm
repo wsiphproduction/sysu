@@ -50,6 +50,12 @@
     <meta name="msapplication-TileImage" content="images/icons/logos/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <style>
+      .modal-dialog-custom {
+        background-color: #F14537;
+      }
+    </style>
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
@@ -72,7 +78,7 @@
 					<a href=""><i class="fa fa-shopping-cart"></i> <span>Shopping Cart</span></a>
 				  </li>
 				  <li>
-				    <a href=""><i class="fa fa-user-plus"></i> <span>Register</span></a>
+				    <a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-user-plus"></i> <span>Register</span></a>
 				  </li>
 				  <li>
 					<a  href="#"><i class="fa fa-sign-in-alt"></i> <span>Log In</span></a>
@@ -147,7 +153,7 @@
 					  <a href="cart.htm"><i class="fa fa-shopping-cart"></i> <span>Cart</span> <span class="badge badge-danger">3</span> </a>
 					</li>
 				    <li>
-					  <a href="#"><i class="fa fa-user-plus"></i> <span>Register</span></a>
+					  <a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-user-plus"></i> <span>Register</span></a>
 					</li>
 					<li>
 					  <a  href="#"><i class="fa fa-sign-in-alt"></i> <span>Log In</span></a>
@@ -1116,6 +1122,43 @@
 
 </footer>
     <!-- END Page Footer -->
+
+    <!-- START Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content modal-dialog-custom border-radius-0">
+          <div class="modal-header border-bottom-0">
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body pt-0 pl-4 pr-4 pb-4">
+            <h3 class="text-center text-white display-4">SIGN UP</h3>
+            <div class="gap-20"></div>
+            <div class="text-center text-white">Shopping for?</div>
+            <div class="gap-20"></div>
+            <div class="row align-items-center">
+              <div class="col-lg-5 col-md-12 flex-fill">
+                <a href="#" class="btn btn-outline-light w-100 flex-fill p-2 mb-3">Own/Family Consumption</a>
+              </div>
+              <div class="col-lg-2 col-md-12">
+                <div class="text-center text-white font-weight-bold display-5 mb-3">OR</div>
+              </div>
+              <div class="col-lg-5 col-md-12 flex-fill">
+                <a href="#" class="btn btn-outline-light w-100 flex-fill p-2 mb-3">Business</a>
+              </div>
+            </div>
+            <div class="gap-20"></div>
+            <p class="text-center text-white-50">
+								Already have an account? <a href="#" class="text-white ml-1"><u>Click here to Sign-In</u></a>.
+            </p>
+          </div>
+          <div class="modal-footer border-top-0">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Modal -->
     
 
     <!-- <div class="privacy-policy">
